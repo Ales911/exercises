@@ -8,23 +8,8 @@ import org.slf4j.LoggerFactory;
 
 public class ExampleReduce {
 
-    class Phone {
+    record Phone(String name, int price) {
 
-        private final String name;
-        private final int price;
-
-        public Phone(String name, int price) {
-            this.name = name;
-            this.price = price;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public int getPrice() {
-            return price;
-        }
     }
 
     private final Logger log = LoggerFactory.getLogger(ExampleReduce.class);
@@ -55,8 +40,8 @@ public class ExampleReduce {
 
         int sum = phoneStream.reduce(0,
                 (x, y) -> {
-                    if (y.getPrice() < 50000) {
-                        return x + y.getPrice();
+                    if (y.price() < 50000) {
+                        return x + y.price();
                     } else {
                         return x + 0;
                     }

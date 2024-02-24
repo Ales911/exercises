@@ -1,6 +1,5 @@
 package com.example.streams;
 
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -15,12 +14,9 @@ public class Students {
 
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
 
-        List<Student> list = Arrays.asList(
+        List<Student> list = List.of(
                 new Student(1, "Rohit", "Mall", 30, "Male", "Mechanical Engineering", 2015, "Mumbai", 122),
                 new Student(2, "Pulkit", "Singh", 56, "Male", "Computer Engineering", 2018, "Delhi", 67),
                 new Student(3, "Ankit", "Patil", 25, "Female", "Mechanical Engineering", 2019, "Kerala", 164),

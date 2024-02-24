@@ -28,7 +28,7 @@ public class ExampleEmployee {
         List<Employee> filteredEmployees = employees.stream()
                 .filter(e -> e.city().equals(location))
                 .sorted(Comparator.comparing(Employee::name).thenComparing(Employee::salary, Comparator.reverseOrder()))
-                .collect(Collectors.toList());
+                .toList();
         System.out.println("Filtered employees: " + filteredEmployees);
 
         Map<String, Integer> nameFrequencyMap = new HashMap<>();
