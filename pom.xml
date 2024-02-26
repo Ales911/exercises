@@ -12,6 +12,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
         <junit.jupiter.version>5.10.2</junit.jupiter.version> 
+        <build.builds.plugin.version>3.2.2</build.builds.plugin.version>
     </properties>    
     
     <dependencies>
@@ -48,34 +49,15 @@
             <version>2.0.7</version>
             <type>jar</type>
         </dependency>
-        
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.4.8</version>
-            <!--scope>test</scope-->
-        </dependency>
-        
+
     </dependencies>
     
     <build>
-        <!--finalName>core-java-streams-maps</finalName-->
-        <resources>
-            <resource>
-                <directory>src/main</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven-compiler-plugin.version}</version>
-                <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
-                    <compilerArgument>-parameters</compilerArgument>
-                </configuration>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${build.builds.plugin.version}</version>
             </plugin>
         </plugins>
     </build>
