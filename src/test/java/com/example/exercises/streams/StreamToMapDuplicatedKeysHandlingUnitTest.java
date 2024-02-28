@@ -7,9 +7,9 @@ import java.util.function.Function;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-record City(String name, String locatedIn) {}
-
 public class StreamToMapDuplicatedKeysHandlingUnitTest {
+    
+    private record City(String name, String locatedIn) {}
 
     // @formatter:off
     private final List<City> CITY_INPUT = List.of(

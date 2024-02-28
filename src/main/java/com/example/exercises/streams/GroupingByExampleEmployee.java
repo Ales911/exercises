@@ -8,13 +8,13 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ExampleEmployee {
-
-    private record Employee(int id, String name, int salary, String deptt, String city) {
-
-    }
+public class GroupingByExampleEmployee {
 
     public static void main(String[] args) {
+
+        record Employee(int id, String name, int salary, String deptt, String city) {
+
+        }
 
         final List<Employee> employees = List.of(
                 new Employee(1, "John Smith", 5000, "Marketing", "New York"),

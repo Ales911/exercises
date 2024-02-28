@@ -8,13 +8,13 @@ import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
-public class Students {
-
-    public record Student(int id, String firstName, String lastName, int age, String gender, String departmantName, int joinedYear, String city, int rank) {
-
-    }
+public class GroupingByExampleStudent {
 
     public static void main(String[] args) {
+
+        record Student(int id, String firstName, String lastName, int age, String gender, String departmantName, int joinedYear, String city, int rank) {
+
+        }
 
         List<Student> list = List.of(
                 new Student(1, "Rohit", "Mall", 30, "Male", "Mechanical Engineering", 2015, "Mumbai", 122),
@@ -73,7 +73,7 @@ public class Students {
                 .max(Map.Entry.comparingByValue()).get();
         System.out.println("Department having maximum number of students : " + entry);
 
-        // 11 Find the Students who stays in Delhi and sort them by their names
+        // 11 Find the GroupingByExampleStudent who stays in Delhi and sort them by their names
         List<Student> lstDelhistudent = list.stream().filter(dt -> dt.city().equals("Delhi"))
                 .sorted(Comparator.comparing(Student::firstName)).toList();
         System.out.println("List of students who stays in Delhi and sort them by their names : " + lstDelhistudent);

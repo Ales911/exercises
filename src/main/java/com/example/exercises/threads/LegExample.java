@@ -7,7 +7,6 @@ import java.util.logging.Logger;
 class Leg implements Runnable {
 
     private static final AtomicInteger NEXT = new AtomicInteger(1);
-
     private final int number;
 
     public Leg(int number) {
@@ -16,12 +15,16 @@ class Leg implements Runnable {
 
     @Override
     public void run() {
-        while (true) {
-            step();
+        try {
+            while (true) {
+                step();
+            }
+        } catch (InterruptedException ex) {
+            Logger.getLogger(Leg.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
-    private void step() {
+    private void step() throws InterruptedException {
         if (NEXT.get() == number) {
             System.out.println("Step by " + number);
             if (NEXT.get() < 40) {
@@ -32,17 +35,9 @@ class Leg implements Runnable {
         } else {
             // System.out.println("Skip by " + number);
             // Thread.yield();
-            
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException ex) {
-                Logger.getLogger(Leg.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
+            Thread.sleep(1000);
         }
-
     }
-
 }
 
 public class LegExample {
