@@ -7,7 +7,7 @@ Questions
 
 -- Find the duplicate element and its occurrence in a given string using the Stream API.
 
-Write a program to find the first non-repeating element from a given string using Java Streams.
+-- Write a program to find the first non-repeating element from a given string using Java Streams.
 
 -- Write a program to find unique elements in a given string using Java streams.
 
@@ -19,4 +19,4 @@ Write a program to sort two types of numbers to the left and right in an array. 
 
 -- Write a program for valid parenthesis.
 
-WAP to find the duplicate characters in a list of strings using the Stream API?
+-- WAP to find the duplicate characters in a list of strings using the Stream API?

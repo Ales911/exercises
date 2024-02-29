@@ -56,7 +56,7 @@ public class FindDuplicates {
         System.out.println("first repeating element: " + result);
 
         System.out.println(" --- ");
-        Set sCharachters = new HashSet();
+        Set<Character> sCharachters = new HashSet<>();
         result = ls.stream().filter(e -> !sCharachters.add(e)).findFirst().orElseThrow();
         System.out.println("first repeating element: " + result);
 
@@ -66,7 +66,14 @@ public class FindDuplicates {
                 .sorted(Comparator.comparingInt(Integer::intValue).reversed())
                 .distinct().limit(2).toList().get(1);
         System.out.println("second-highest element: " + i);
-
+        
+        // WAP to find the duplicate characters in a list of strings using the Stream API?
+        sCharachters.clear();
+        System.out.println("duplicate characters in a list of strings: " + 
+        List.of("apple", "banana").stream()
+                .flatMapToInt(CharSequence::chars)
+                .mapToObj(ch -> (char) ch)
+                .filter(e -> !sCharachters.add(e)).distinct().toList());
     }
 
 }
