@@ -13,7 +13,7 @@ Questions
 
 -- Write a program to find the longest string in a given array.
 
-Write a program to sort two types of numbers to the left and right in an array. Example: Integer array[] = [5, 5, 0, 5, 0] -> output: [0, 0, 5, 5, 5]
+-- Write a program to sort two types of numbers to the left and right in an array. Example: Integer array[] = [5, 5, 0, 5, 0] -> output: [0, 0, 5, 5, 5]
 
 -- Write a program to find the first repeating element/character from a given string using Java Streams.
 

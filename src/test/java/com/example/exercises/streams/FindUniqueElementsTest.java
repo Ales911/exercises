@@ -1,4 +1,4 @@
-package com.example.exercises.threads;
+package com.example.exercises.streams;
 
 import java.util.Collections;
 import java.util.List;
@@ -10,7 +10,13 @@ public class FindUniqueElementsTest {
 
     final String given = "Hello world.";
     final List<Character> list = given.chars().mapToObj(o -> (char) o).toList();
-    
+
+    @Test
+    public void FindUniqueElements() {
+        List<Character> result = list.stream().filter(e -> Collections.frequency(list, e) == 1).toList();
+        Assertions.assertEquals(7, result.size());
+    }
+
     @Test
     public void FindUniqueElementsGroupBy() {
         List<Character> result = list.stream()
@@ -19,11 +25,5 @@ public class FindUniqueElementsTest {
                 .filter(e -> e.getValue() == 1).map(e -> e.getKey()).toList();
         Assertions.assertEquals(7, result.size());
     }
-    
-    @Test
-    public void FindUniqueElementsCollections() {
-        List<Character> result = list.stream().filter(e -> Collections.frequency(list, e) == 1).toList();
-        Assertions.assertEquals(7, result.size());
-    }
-    
+
 }

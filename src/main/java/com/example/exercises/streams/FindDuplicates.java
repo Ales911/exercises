@@ -23,7 +23,7 @@ public class FindDuplicates {
 //        List<String> r3 = r2.stream().map(Entry::getKey).toList();
 //        System.out.println("r3: " + r3);
         // List<String> duplicates = 
-                Map<String, Long> duplicates = sSource.stream()
+        Map<String, Long> duplicates = sSource.stream()
                 .collect(Collectors.groupingBy(s -> s, Collectors.counting()));
 //                .entrySet()
 //                .stream()
@@ -66,14 +66,22 @@ public class FindDuplicates {
                 .sorted(Comparator.comparingInt(Integer::intValue).reversed())
                 .distinct().limit(2).toList().get(1);
         System.out.println("second-highest element: " + i);
-        
+
         // WAP to find the duplicate characters in a list of strings using the Stream API?
         sCharachters.clear();
-        System.out.println("duplicate characters in a list of strings: " + 
-        List.of("apple", "banana").stream()
-                .flatMapToInt(CharSequence::chars)
-                .mapToObj(ch -> (char) ch)
-                .filter(e -> !sCharachters.add(e)).distinct().toList());
+        System.out.println("duplicate characters in a list of strings: "
+                + List.of("apple", "banana").stream()
+                        .flatMapToInt(CharSequence::chars)
+                        .mapToObj(ch -> (char) ch)
+                        .filter(e -> !sCharachters.add(e)).distinct().toList());
+
+        System.out.println("duplicate characters in a list of strings: "
+                + List.of("apple", "banana").stream()
+                        .map(word -> word.split(""))
+                        .flatMap(Arrays::stream)
+                        .distinct()
+                        .toList());
+
     }
 
 }
