@@ -1,0 +1,4 @@
+Golden Rules for System Design Interview https://medium.com/@aqilzeka99/golden-rules-for-system-design-interview-c233295701e2
+Microservice Interview Questions for Java Backend Developers series-3 https://rathod-ajay.medium.com/microservice-interview-questions-for-java-backend-developers-series-3-7252a882961c
+
+Implementing Retry and Circuit Breaker pattern together with Spring Boot https://nitsbat.medium.com/implementing-retry-and-circuit-breaker-pattern-together-with-spring-boot-5c9169fb0444
