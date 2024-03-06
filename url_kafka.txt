@@ -1,0 +1,3 @@
+Understanding Kafka Topics and Partitions https://www.baeldung.com/kafka-topics-partitions
+https://www.geeksforgeeks.org/apache-kafka-create-consumers-in-a-consumer-group-using-cli/ https://www.geeksforgeeks.org/apache-kafka-create-consumers-in-a-consumer-group-using-cli/
+Best Kafka Connectors in 2024 https://hevodata.com/learn/kafka-connectors/
