@@ -1,1 +1,2 @@
 Concurrency Challenges in Database Transactions: Isolation Levels and Locking Mechanisms https://dip-mazumder.medium.com/concurrency-challenges-in-database-transactions-isolation-levels-and-locking-mechanisms-9672d335d432
+Maximizing PostgreSQL: Advanced Techniques for Better Performance https://blog.devgenius.io/maximizing-postgresql-advanced-techniques-for-better-performance-5ff46f3f982c

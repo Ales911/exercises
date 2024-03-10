@@ -5,3 +5,7 @@ Microservice Interview Questions for Java Backend Developers series-3 https://ra
 Implementing Retry and Circuit Breaker pattern together with Spring Boot https://nitsbat.medium.com/implementing-retry-and-circuit-breaker-pattern-together-with-spring-boot-5c9169fb0444
 
 Understanding Event-Driven Design Pattern in Microservices with Java https://connect2grp.medium.com/understanding-event-driven-design-pattern-in-microservices-with-java-4b7c46db0b3b
+
+Spring Boot, Kafka, and WebSocket: A Practical Approach to Real-Time Messaging https://umar-fajar14.medium.com/spring-boot-kafka-and-websocket-a-practical-approach-to-real-time-messaging-6169f5995fe1
+
+RabbitMQ vs. Kafka: A Comprehensive Comparison for Message Brokers https://blog.devgenius.io/rabbitmq-vs-kafka-a-comprehensive-comparison-for-message-brokers-10ed6ac07332

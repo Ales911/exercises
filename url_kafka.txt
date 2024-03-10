@@ -1,5 +1,7 @@
 Understanding Kafka Topics and Partitions https://www.baeldung.com/kafka-topics-partitions
-https://www.geeksforgeeks.org/apache-kafka-create-consumers-in-a-consumer-group-using-cli/ https://www.geeksforgeeks.org/apache-kafka-create-consumers-in-a-consumer-group-using-cli/
+
+Apache Kafka – Create Consumers in a Consumer Group using CLI https://www.geeksforgeeks.org/apache-kafka-create-consumers-in-a-consumer-group-using-cli/
+
 Best Kafka Connectors in 2024 https://hevodata.com/learn/kafka-connectors/
 
 How Agoda manages 1.8 trillion Events per day on Kafka https://medium.com/agoda-engineering/how-agoda-manages-1-8-trillion-events-per-day-on-kafka-1d6c3f4a7ad1
