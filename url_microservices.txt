@@ -9,3 +9,7 @@ Understanding Event-Driven Design Pattern in Microservices with Java https://con
 Spring Boot, Kafka, and WebSocket: A Practical Approach to Real-Time Messaging https://umar-fajar14.medium.com/spring-boot-kafka-and-websocket-a-practical-approach-to-real-time-messaging-6169f5995fe1
 
 RabbitMQ vs. Kafka: A Comprehensive Comparison for Message Brokers https://blog.devgenius.io/rabbitmq-vs-kafka-a-comprehensive-comparison-for-message-brokers-10ed6ac07332
+
+Architecture Patterns : API Gateway https://lab.scub.net/architecture-patterns-api-gateway-4426edb64649
+
+Назад к микросервисам вместе с Istio. Часть 1 https://habr.com/ru/companies/flant/articles/438426/
