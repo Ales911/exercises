@@ -13,3 +13,5 @@ RabbitMQ vs. Kafka: A Comprehensive Comparison for Message Brokers https://blog.
 Architecture Patterns : API Gateway https://lab.scub.net/architecture-patterns-api-gateway-4426edb64649
 
 Назад к микросервисам вместе с Istio. Часть 1 https://habr.com/ru/companies/flant/articles/438426/
+
+Micrometer and Zipkin: How to Trace HTTP Requests in Spring Boot 3: https://www.appsdeveloperblog.com/micrometer-and-zipkin-in-spring-boot/
