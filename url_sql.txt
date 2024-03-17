@@ -1,3 +1,4 @@
 Concurrency Challenges in Database Transactions: Isolation Levels and Locking Mechanisms https://dip-mazumder.medium.com/concurrency-challenges-in-database-transactions-isolation-levels-and-locking-mechanisms-9672d335d432
 Maximizing PostgreSQL: Advanced Techniques for Better Performance https://blog.devgenius.io/maximizing-postgresql-advanced-techniques-for-better-performance-5ff46f3f982c
 Pessimistic Lock in Spring Boot https://blog.devgenius.io/pessimistic-lock-in-spring-boot-a3c44055be0f
+Hibernate Relations, Cascade Types, Fetch Types and Orphan Removal https://beratyesbek.medium.com/hibernate-relations-cascade-types-fetch-types-and-orphan-removal-ad9681758843
