@@ -1,5 +1,7 @@
 Golden Rules for System Design Interview https://medium.com/@aqilzeka99/golden-rules-for-system-design-interview-c233295701e2
 
+Microservices Interview Questions https://medium.com/@maanand/microservices-interview-questions-8d227e00d755
+
 Microservice Interview Questions for Java Backend Developers series-3 https://rathod-ajay.medium.com/microservice-interview-questions-for-java-backend-developers-series-3-7252a882961c
 
 Implementing Retry and Circuit Breaker pattern together with Spring Boot https://nitsbat.medium.com/implementing-retry-and-circuit-breaker-pattern-together-with-spring-boot-5c9169fb0444
@@ -15,3 +17,19 @@ Architecture Patterns : API Gateway https://lab.scub.net/architecture-patterns-a
 Назад к микросервисам вместе с Istio. Часть 1 https://habr.com/ru/companies/flant/articles/438426/
 
 Micrometer and Zipkin: How to Trace HTTP Requests in Spring Boot 3: https://www.appsdeveloperblog.com/micrometer-and-zipkin-in-spring-boot/
+
+API gateway in Spring boot https://medium.com/@ankithahjpgowda/api-gateway-in-spring-boot-3ea804003021
+
+CQRS in Action: Building Robust Micro Services with Spring Boot https://towardsdev.com/cqrs-in-action-building-robust-micro-services-with-spring-boot-68faa9133a4d
+
+Consistency in Microservices: Transactional Outbox Pattern https://dip-mazumder.medium.com/consistency-in-microservices-transactional-outbox-pattern-bcd9d3b08676
+
+Observing REST API Performance with SpringBoot, Prometheus, Grafana, and Gatling: Local Test Environment Setup https://medium.com/@igorreshetnev/observing-rest-api-performance-with-springboot-prometheus-grafana-and-gatling-local-test-fee7ab393546
+
+Microservice Distributed Transactions 101: Guide to Choose the Best Strategy https://medium.com/@mayilb77/design-a-distributed-job-scheduler-for-millions-of-tasks-in-daily-operations-4132dc6d645f
+
+Java Microservices Architecture: Inter-Service Communication https://dip-mazumder.medium.com/java-microservices-architecture-inter-service-communication-use-cases-7d1d31b2617
+
+Building Scalable Microservices with gRPC, Spring Boot, and Maven https://towardsdev.com/building-scalable-microservices-with-grpc-spring-boot-and-maven-fe49c377e450
+
+Backend side architecture evolution (N-layered, DDD, Hexagon, Onion, Clean Architecture) https://medium.com/@iamprovidence/backend-side-architecture-evolution-n-layered-ddd-hexagon-onion-clean-architecture-643d72444ce4

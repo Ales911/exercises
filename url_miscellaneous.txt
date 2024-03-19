@@ -1,0 +1,42 @@
+Собеседование на Java разработчика. Разбор 1606 вопросов и ответов. Часть 2 (с 170 по 269 вопрос) https://habr.com/ru/articles/744594/
+Собеседование Backend-Java-разработчика: вопросы и где искать ответы. Часть 1 https://habr.com/ru/articles/529210/
+Java собеседование. Коллекции https://habr.com/ru/articles/162017/
+
+Паттерны проектирования в Java https://javarush.com/groups/posts/2267-patternih-proektirovanija-v-java
+Паттерны проектирования в Java [Часть 2] https://javarush.com/groups/posts/584-patternih-proektirovanija
+
+A Comprehensive guide to Spring Boot 3.2 with Java 21, Virtual Threads, Spring Security, 
+PostgreSQL, Flyway, Caching, Micrometer, Opentelemetry, JUnit 5, RabbitMQ, Keycloak Integration, and More! (10/17) https://medium.com/@jojoooo/exploring-a-base-spring-boot-application-with-java-21-virtual-thread-spring-security-flyway-c0fde13c1eca
+
+Top 60 Spring-Framework Interview Questions for Java Developers 2024(Contain All the Questions from the Book) https://rathod-ajay.medium.com/top-60-spring-framework-interview-questions-for-java-developers-2024-contain-all-the-questions-from-f15621f77d2a
+
+Дополнительные материалы (Gradle, Liquibase, Spring Security (Oauth2), JSON Web Token, Apache Kafka, 
+Spring Boot Actuator c помощью Prometheus и Grafana, EventListeners и Spring Logs, Spring Rest Repositories, 
+RabbitMQ и New Relic, Интернационализация приложений https://javarush.com/quests/lectures/jru.module5.lecture03
+
+Полное руководство по Java 8 Stream API в картинках и примерах https://annimon.com/article/2778
+Learn Java Stream API Practically https://blog.stackademic.com/learn-java-stream-api-practically-5e8bbcfb84be
+
+Java - Thread Starvation and Fairness https://www.logicbig.com/tutorials/core-java-tutorial/java-multi-threading/thread-starvation.html
+Thread'ом Java не испортишь: Часть I — потоки https://javarush.com/groups/posts/2047-threadom-java-ne-isportishjh--chastjh-i---potoki
+Синхронизаторы пакета concurrent https://java-online.ru/concurrent-synchronizers.xhtml
+Руководство по CompletableFuture с примерами https://annimon.com/article/3462
+Java Advanced Concurrency Interview Questions https://medium.com/@vikas.taank_40391/java-advanced-concurrency-interview-questions-69449655ba9b
+
+Unit Testing a Spring Boot service with Mockito and JUnit 5 https://ashok-s-nair.medium.com/java-unit-testing-a-spring-boot-service-with-mockito-2362a32fe217
+Testcontainers in Java and Spring Boot https://senoritadeveloper.medium.com/testcontainers-in-java-and-spring-boot-44177d95d48f
+
+Design Patterns in Java https://medium.com/@saygiligozde/design-patterns-in-java-5251032ca244
+
+Build an Event Driven Spring Boot Application without Message Queue https://levelup.gitconnected.com/event-driven-spring-boot-application-without-mq-e781110275ee
+Spring Boot — Implementing a Distributed Task Scheduler (without queue) https://medium.com/@navez.jerome/spring-boot-implementing-a-distributed-task-scheduler-without-queue-f0ec07613710
+
+Design a Distributed Job Scheduler for Millions of Tasks in Daily Operations https://medium.com/@mayilb77/design-a-distributed-job-scheduler-for-millions-of-tasks-in-daily-operations-4132dc6d645f
+
+Transitioning from RestTemplate to WebClient in Spring Boot: A Detailed Guide https://medium.com/hprog99/transitioning-from-resttemplate-to-webclient-in-spring-boot-a-detailed-guide-4febd21063ba
+
+Dockerize Your Spring Boot App Like a Pro https://medium.com/@anilfromdit/dockerize-your-spring-boot-app-like-a-pro-d1dd0ef37b79
+Dockerizing Spring Boot: Best Practices for Efficient Containerization https://medium.com/@kiarash.shamaii/dockerizing-spring-boot-best-practices-for-efficient-containerization-f60ed3980dc7
+Как работает сеть в контейнерах: Docker Bridge с нуля https://habr.com/ru/articles/790212/
+
+Шпаргалка для алгособеса — алгоритмическая сложность, структуры данных, методы сортировки и Дейкстра https://habr.com/ru/articles/794556/

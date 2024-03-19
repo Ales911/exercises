@@ -3,3 +3,4 @@ Maximizing PostgreSQL: Advanced Techniques for Better Performance https://blog.d
 Pessimistic Lock in Spring Boot https://blog.devgenius.io/pessimistic-lock-in-spring-boot-a3c44055be0f
 Hibernate Relations, Cascade Types, Fetch Types and Orphan Removal https://beratyesbek.medium.com/hibernate-relations-cascade-types-fetch-types-and-orphan-removal-ad9681758843
 SQL Transactions and ACID Properties https://levelup.gitconnected.com/sql-transactions-and-acid-properties-bb5b670538f8
+Учимся применять оконные функции https://thisisdata.ru/blog/uchimsya-primenyat-okonnyye-funktsii/

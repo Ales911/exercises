@@ -5,3 +5,9 @@ Apache Kafka – Create Consumers in a Consumer Group using CLI https://www.geek
 Best Kafka Connectors in 2024 https://hevodata.com/learn/kafka-connectors/
 
 How Agoda manages 1.8 trillion Events per day on Kafka https://medium.com/agoda-engineering/how-agoda-manages-1-8-trillion-events-per-day-on-kafka-1d6c3f4a7ad1
+
+Design a Real-Time Leaderboard system for millions of users https://medium.com/@mayilb77/design-a-real-time-leaderboard-system-for-millions-of-users-08b96b4b64ce
+
+Spring Boot, Kafka, and WebSocket: A Practical Approach to Real-Time Messaging https://umar-fajar14.medium.com/spring-boot-kafka-and-websocket-a-practical-approach-to-real-time-messaging-6169f5995fe1
+
+Kafka Architecture https://medium.com/@cobch7/kafka-architecture-43333849e0f4

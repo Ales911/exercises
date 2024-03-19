@@ -1,3 +1,13 @@
-Spring Security Architecture Explained with JWT Authentication Example(Spring Boot)
+Что каждый программист должен знать о безопасности? https://stackoverflow.com/questions/2794016/what-should-every-programmer-know-about-security
 
-https://medium.com/@dilankacm/spring-security-architecture-explained-with-jwt-authentication-example-spring-boot-5cc583a9aeac
+Безопасность в Java: best practices https://javarush.com/groups/posts/2713-bezopasnostjh-v-java-best-practices
+
+Курс Модуль 5. Spring - Лекция: Введение в Spring Security https://javarush.com/quests/lectures/questspringsecurity.level01.lecture00
+
+Spring Security Architecture Explained with JWT Authentication Example(Spring Boot) https://medium.com/@dilankacm/spring-security-architecture-explained-with-jwt-authentication-example-spring-boot-5cc583a9aeac
+
+Подключение Keycloak к Spring Boot приложению https://habr.com/ru/companies/reksoft/articles/552346/
+
+Spring Boot 3 + Spring Security 6 : JWT Authentication & Authorization https://medium.com/spring-boot/spring-boot-3-spring-security-6-jwt-authentication-authorization-98702d6313a5
+
+Spring Security: Authentication and Authorization In-Depth https://www.marcobehler.com/guides/spring-security
