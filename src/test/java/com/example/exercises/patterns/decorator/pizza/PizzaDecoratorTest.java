@@ -1,5 +1,8 @@
-package com.example.exercises.patterns.decorator;
+package com.example.exercises.patterns.decorator.pizza;
 
+import com.example.exercises.patterns.decorator.pizza.PepperoniDecorator;
+import com.example.exercises.patterns.decorator.pizza.Pizza;
+import com.example.exercises.patterns.decorator.pizza.BasePizza;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

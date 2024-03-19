@@ -9,7 +9,7 @@ public class CatFactoryTest {
 
     @Test
     public void tigerTest() {
-        CatFactory.Cat tiger = catFactory.createCat(CatFactory.CatType.TIGER);
+        Cat tiger = catFactory.createCat(CatType.TIGER);
         String actual = tiger.maay();
         System.out.println(actual);
         Assertions.assertEquals("TIGER says maay.", actual);

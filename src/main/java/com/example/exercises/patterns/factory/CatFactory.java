@@ -1,38 +1,38 @@
 package com.example.exercises.patterns.factory;
 
+enum CatType {
+    LION,
+    TIGER
+}
+
+abstract class Cat {
+
+    private final CatType catType;
+
+    Cat(CatType catType) {
+        this.catType = catType;
+    }
+
+    public String maay() {
+        return catType + " says maay.";
+    }
+}
+
+class Lion extends Cat {
+
+    Lion() {
+        super(CatType.LION);
+    }
+}
+
+class Tiger extends Cat {
+
+    Tiger() {
+        super(CatType.TIGER);
+    }
+}
+
 public class CatFactory {
-
-    enum CatType {
-        LION,
-        TIGER
-    }
-
-    abstract class Cat {
-
-        private final CatType catType;
-
-        Cat(CatType catType) {
-            this.catType = catType;
-        }
-
-        public String maay() {
-            return catType + " says maay.";
-        }
-    }
-
-    class Lion extends Cat {
-
-        Lion() {
-            super(CatType.LION);
-        }
-    }
-
-    class Tiger extends Cat {
-
-        Tiger() {
-            super(CatType.TIGER);
-        }
-    }
 
     Cat createCat(CatType catType) {
         Cat cat = null;

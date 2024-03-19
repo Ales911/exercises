@@ -1,4 +1,4 @@
-package com.example.exercises.patterns.decorator;
+package com.example.exercises.patterns.decorator.pizza;
 
 public class PizzaDecorator implements Pizza {
 
