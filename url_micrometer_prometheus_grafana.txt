@@ -1,0 +1,111 @@
+Мониторинг приложения Spring Boot с помощью Micrometer, Prometheus и Grafana, используя пользовательские метрики https://habr.com/ru/companies/otus/articles/650871/
+
+pom.xml:
+-----
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>de.mokkapps</groupId>
+    <artifactId>custom-metrics-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>custom-metrics-demo</name>
+    <description>custom-metrics-demo</description>
+    
+    <properties>
+        <!--start-class>com.example.jcachesimpleexample.JcacheSimpleExampleApplication</start-class-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.release>11</maven.compiler.release>
+    </properties>   
+    
+    <dependencies>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+            <version>1.18.20</version>
+        </dependency>
+                
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>compile</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        
+    </dependencies>
+    
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+   
+    
+</project>
+-----
+docker run -d -p 9090:9090 -v /home/alex/Projects/custom-metrics-spring-boot-demo/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+docker run -d -p 3000:3000 grafana/grafana   
+
+Grafana pass:'tc*9!5v_fR,$";
+-----
+
+prometheus.yml
+-----
+global:
+    scrape_interval: 10s # How frequently to scrape targets by default
+  
+scrape_configs:
+    - job_name: 'spring_micrometer'         # The job name is assigned to scraped metrics by default.
+      metrics_path: '/actuator/prometheus'  # The HTTP resource path on which to fetch metrics from targets.
+      scrape_interval: 5s                   # How frequently to scrape targets from this job.
+      static_configs:                       # A static_config allows specifying a list of targets and a common label set for them
+        - targets: ['192.168.31.233:8080']
+-----
