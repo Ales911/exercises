@@ -40,3 +40,4 @@ Dockerizing Spring Boot: Best Practices for Efficient Containerization https://m
 Как работает сеть в контейнерах: Docker Bridge с нуля https://habr.com/ru/articles/790212/
 
 Шпаргалка для алгособеса — алгоритмическая сложность, структуры данных, методы сортировки и Дейкстра https://habr.com/ru/articles/794556/
+What is SonarQube and How Do We Integrate It into Our Spring Boot Project? https://medium.com/@aedemirsen/what-is-sonarqube-and-how-do-we-integrate-it-into-our-spring-boot-project-14a529b3669d
