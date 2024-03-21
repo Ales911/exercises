@@ -5,11 +5,9 @@ import org.junit.jupiter.api.Test;
 
 public class CatFactoryTest {
 
-    private CatFactory catFactory = new CatFactory();
-
     @Test
     public void tigerTest() {
-        Cat tiger = catFactory.createCat(CatType.TIGER);
+        Cat tiger = CatFactory.createCat(CatType.TIGER);
         String actual = tiger.maay();
         System.out.println(actual);
         Assertions.assertEquals("TIGER says maay.", actual);

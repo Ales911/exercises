@@ -34,7 +34,7 @@ class Tiger extends Cat {
 
 public class CatFactory {
 
-    Cat createCat(CatType catType) {
+    static Cat createCat(CatType catType) {
         Cat cat = null;
         switch (catType) {
             case LION ->
