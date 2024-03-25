@@ -1,0 +1,5 @@
+
+How does URL shortening for TinyUrl, Bit.ly work? https://medium.com/javarevisited/day-1-high-level-system-design-series-url-shortening-d28888d71084
+Day 2 — High Level System Design Series -How does YouTube stream millions of videos daily? https://medium.com/javarevisited/how-does-youtube-stream-millions-of-videos-daily-3d8627d297e5
+
+System design: Instagram https://medium.com/@sureshpodeti/system-design-instagram-cf9bf09bb627
