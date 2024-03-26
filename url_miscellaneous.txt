@@ -47,6 +47,8 @@ What is SonarQube and How Do We Integrate It into Our Spring Boot Project? https
 Используем аннотацию @Transactional like a pro https://habr.com/ru/companies/rosbank/articles/707378/
 Spring Data: нюансы @Transactional https://habr.com/ru/articles/567368/
 
+Load Testing Rest Endpoint Using Gatling https://www.baeldung.com/gatling-load-testing-rest-endpoint
+
 Why You Should Stop Using @Value Annotations In Spring (And Use @ConfigurationProperties Instead) https://medium.com/@mikael_55667/why-you-should-stop-using-value-annotations-in-spring-and-use-this-instead-2c8a47e5096a
 
 Tracing in Spring Boot3 https://medium.com/javarevisited/tracing-in-spring-boot3-097205dc08f4
