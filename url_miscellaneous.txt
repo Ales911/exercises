@@ -41,3 +41,12 @@ Dockerizing Spring Boot: Best Practices for Efficient Containerization https://m
 
 Шпаргалка для алгособеса — алгоритмическая сложность, структуры данных, методы сортировки и Дейкстра https://habr.com/ru/articles/794556/
 What is SonarQube and How Do We Integrate It into Our Spring Boot Project? https://medium.com/@aedemirsen/what-is-sonarqube-and-how-do-we-integrate-it-into-our-spring-boot-project-14a529b3669d
+
+Настраиваем ExecutorService'ы на практике https://habr.com/ru/articles/802113/
+
+Используем аннотацию @Transactional like a pro https://habr.com/ru/companies/rosbank/articles/707378/
+Spring Data: нюансы @Transactional https://habr.com/ru/articles/567368/
+
+Why You Should Stop Using @Value Annotations In Spring (And Use @ConfigurationProperties Instead) https://medium.com/@mikael_55667/why-you-should-stop-using-value-annotations-in-spring-and-use-this-instead-2c8a47e5096a
+
+Tracing in Spring Boot3 https://medium.com/javarevisited/tracing-in-spring-boot3-097205dc08f4
