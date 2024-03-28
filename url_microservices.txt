@@ -33,3 +33,5 @@ Java Microservices Architecture: Inter-Service Communication https://dip-mazumde
 Building Scalable Microservices with gRPC, Spring Boot, and Maven https://towardsdev.com/building-scalable-microservices-with-grpc-spring-boot-and-maven-fe49c377e450
 
 Backend side architecture evolution (N-layered, DDD, Hexagon, Onion, Clean Architecture) https://medium.com/@iamprovidence/backend-side-architecture-evolution-n-layered-ddd-hexagon-onion-clean-architecture-643d72444ce4
+
+Spring Boot 3 Crash Course Part 7: Aspect Oriented Programming https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-6-aspect-oriented-programming-845ecb4f67a9

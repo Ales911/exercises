@@ -52,3 +52,5 @@ Load Testing Rest Endpoint Using Gatling https://www.baeldung.com/gatling-load-t
 Why You Should Stop Using @Value Annotations In Spring (And Use @ConfigurationProperties Instead) https://medium.com/@mikael_55667/why-you-should-stop-using-value-annotations-in-spring-and-use-this-instead-2c8a47e5096a
 
 Tracing in Spring Boot3 https://medium.com/javarevisited/tracing-in-spring-boot3-097205dc08f4
+
+Spring Boot 3 Crash Course Part 7: Aspect Oriented Programming https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-6-aspect-oriented-programming-845ecb4f67a9
