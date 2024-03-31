@@ -11,3 +11,5 @@ Spring Security Architecture Explained with JWT Authentication Example(Spring Bo
 Spring Boot 3 + Spring Security 6 : JWT Authentication & Authorization https://medium.com/spring-boot/spring-boot-3-spring-security-6-jwt-authentication-authorization-98702d6313a5
 
 Spring Security: Authentication and Authorization In-Depth https://www.marcobehler.com/guides/spring-security
+
+How to pass cookie in Swagger UI for Authenticating the APIs — API Documentations using Open API 3 https://medium.com/spring-boot/how-to-pass-cookie-in-swagger-ui-for-authenticating-the-apis-api-documentations-using-open-api-3-2d6d9b24ffce
