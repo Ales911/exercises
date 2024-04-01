@@ -54,3 +54,5 @@ Why You Should Stop Using @Value Annotations In Spring (And Use @ConfigurationPr
 Tracing in Spring Boot3 https://medium.com/javarevisited/tracing-in-spring-boot3-097205dc08f4
 
 Spring Boot 3 Crash Course Part 7: Aspect Oriented Programming https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-6-aspect-oriented-programming-845ecb4f67a9
+
+Механизмы сериализации в Java и Kotlin https://habr.com/ru/companies/usetech/articles/665046/

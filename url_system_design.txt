@@ -4,3 +4,5 @@ Day 2 — High Level System Design Series -How does YouTube stream millions of v
 
 System design: Instagram https://medium.com/@sureshpodeti/system-design-instagram-cf9bf09bb627
 Tinder — Fully explained System Design and Architecture https://kasunprageethdissanayake.medium.com/tinder-fully-explained-system-design-and-architecture-1225ecdfe64e
+System design: Uber https://medium.com/@sureshpodeti/system-design-uber-378a23bcc7df
+JWT Refresh Token : Spring Security https://medium.com/spring-boot/jwt-refresh-token-spring-security-c5b4646cdbd9

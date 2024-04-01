@@ -1,0 +1,3 @@
+Замеры производительности на Java с JMH https://nuancesprog.ru/p/8792/?ysclid=lugqhluj5a111855036
+Microbenchmarking with Java https://www.baeldung.com/java-microbenchmark-harness
+Пишем тесты производительности под Webflux https://habr.com/ru/companies/usetech/articles/680948/
