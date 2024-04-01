@@ -56,3 +56,6 @@ Tracing in Spring Boot3 https://medium.com/javarevisited/tracing-in-spring-boot3
 Spring Boot 3 Crash Course Part 7: Aspect Oriented Programming https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-6-aspect-oriented-programming-845ecb4f67a9
 
 Механизмы сериализации в Java и Kotlin https://habr.com/ru/companies/usetech/articles/665046/
+System design: URL Shortener https://medium.com/@sureshpodeti/system-design-url-shortener-d5d2e094a729
+
+Implement Pagination with Search, Filter and Sorting Capabilities in a Single API using Spring Boot Like a Pro https://levelup.gitconnected.com/implement-pagination-with-search-filter-and-sorting-capabilities-in-a-single-api-using-spring-boot-34ad1841841c
