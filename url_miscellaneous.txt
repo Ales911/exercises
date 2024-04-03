@@ -59,3 +59,5 @@ Spring Boot 3 Crash Course Part 7: Aspect Oriented Programming https://medium.co
 System design: URL Shortener https://medium.com/@sureshpodeti/system-design-url-shortener-d5d2e094a729
 
 Implement Pagination with Search, Filter and Sorting Capabilities in a Single API using Spring Boot Like a Pro https://levelup.gitconnected.com/implement-pagination-with-search-filter-and-sorting-capabilities-in-a-single-api-using-spring-boot-34ad1841841c
+
+Unlocking observability: Structured logging in Spring Boot https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7
