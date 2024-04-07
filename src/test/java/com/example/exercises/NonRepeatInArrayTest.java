@@ -25,7 +25,8 @@ public class NonRepeatInArrayTest {
     public static Stream<Arguments> getTestData() {
         return Stream.of(
                 Arguments.of(new int[] {9, 1, 7, 2, 6, 1, 2, 7, 6}, 9),
-                Arguments.of(new int[] {9, 1, 7, 2, 6, 1, 2, 7, 9}, 6));
+                Arguments.of(new int[] {9, 1, 7, 2, 6, 1, 2, 7, 9}, 6),
+                Arguments.of(new int[] {9, 1, 7, 2, 6, 6, 2, 7, 9}, 1));
     }
     
     

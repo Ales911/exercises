@@ -16,6 +16,8 @@ Cookie-based JWT Authentication with Spring Security https://medium.com/spring-b
 
 Implement JWT authentication in a Spring Boot 3 application https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac
 
+How does Single Sign-On (SSO) work? https://medium.com/@techworldwithmilan/how-does-single-sign-on-sso-work-31ffa1afcc63
+
 Подключение Keycloak к Spring Boot приложению https://habr.com/ru/companies/reksoft/articles/552346/
 
 SSO на микросервисной архитектуре. Используем Keycloak. Часть №1 https://habr.com/ru/companies/X5Tech/articles/486778/
