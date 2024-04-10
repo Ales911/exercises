@@ -61,3 +61,9 @@ System design: URL Shortener https://medium.com/@sureshpodeti/system-design-url-
 Implement Pagination with Search, Filter and Sorting Capabilities in a Single API using Spring Boot Like a Pro https://levelup.gitconnected.com/implement-pagination-with-search-filter-and-sorting-capabilities-in-a-single-api-using-spring-boot-34ad1841841c
 
 Unlocking observability: Structured logging in Spring Boot https://medium.com/booking-com-development/unlocking-observability-structured-logging-in-spring-boot-c81dbabfb9e7
+
+How can you prepare effectively for your next Java Threads and Concurrency interview? https://levelup.gitconnected.com/how-can-you-prepare-effectively-for-your-next-java-threads-and-concurrency-interview-ecf40bcded0c
+
+Multitenancy in Java with Spring Boot and Hibernate with an example https://medium.com/@anarxocayev/multitenancy-in-java-with-spring-boot-and-hibernate-with-an-example-d3577eef2b2a
+
+Simplifying Database Access with @NoRepositoryBean https://blog.octalabs.com/simplifying-database-access-with-norepositorybean-cc9c8d8c309a
