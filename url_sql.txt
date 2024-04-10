@@ -9,3 +9,4 @@ SQL Transactions and ACID Properties https://levelup.gitconnected.com/sql-transa
 Concurrency Control in Java Persistence API (JPA) with Hibernate: Optimistic vs. Pessimistic Locking https://dip-mazumder.medium.com/concurrency-control-in-java-persistence-api-jpa-with-hibernate-optimistic-vs-d74bb50fe4ec
 
 Курс «PostgreSQL для начинающих»: #4 — Анализ запросов (ч.1 — как и зачем читать планы) https://habr.com/ru/companies/tensor/articles/790282/
+SQL – execution plan https://www.olegaxenow.com/2011/04/sql-execution-plan.html
