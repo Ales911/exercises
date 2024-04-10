@@ -21,3 +21,7 @@ How does Single Sign-On (SSO) work? https://medium.com/@techworldwithmilan/how-d
 Подключение Keycloak к Spring Boot приложению https://habr.com/ru/companies/reksoft/articles/552346/
 
 SSO на микросервисной архитектуре. Используем Keycloak. Часть №1 https://habr.com/ru/companies/X5Tech/articles/486778/
+
+Implementing CSRF Security in a Spring Boot Application https://medium.com/@thecodebean/implementing-csrf-security-in-a-spring-boot-application-d1e1d128ca1d
+
+[Part 1] — Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers https://blog.devgenius.io/implementing-authentication-with-spring-boot-security-6-oauth2-and-angular-17-via-multiple-4144075e5fef

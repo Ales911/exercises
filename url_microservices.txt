@@ -37,3 +37,7 @@ Backend side architecture evolution (N-layered, DDD, Hexagon, Onion, Clean Archi
 Spring Boot 3 Crash Course Part 7: Aspect Oriented Programming https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-6-aspect-oriented-programming-845ecb4f67a9
 
 Why should you build a (modular) monolith first? https://medium.com/@techworldwithmilan/why-should-you-build-a-modular-monolith-first-0404c48eae70
+
+Design Notification System https://shivam-sinha.medium.com/design-notification-system-270506e944e0
+
+Using a Feign Client for Communication Spring Framework: Day 27 — Building Microservices with Spring Boot https://medium.com/javarevisited/spring-framework-day-27-building-microservices-with-spring-boot-fa3f8a3240d7
