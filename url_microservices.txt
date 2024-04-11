@@ -41,3 +41,5 @@ Why should you build a (modular) monolith first? https://medium.com/@techworldwi
 Design Notification System https://shivam-sinha.medium.com/design-notification-system-270506e944e0
 
 Using a Feign Client for Communication Spring Framework: Day 27 — Building Microservices with Spring Boot https://medium.com/javarevisited/spring-framework-day-27-building-microservices-with-spring-boot-fa3f8a3240d7
+
+How Shopify broke its Black Friday record (System Design case study) https://learningdaily.dev/how-shopify-broke-its-black-friday-record-system-design-case-study-f45f25bbc451
