@@ -2,6 +2,7 @@
 -- DROP SCHEMA IF EXISTS book_store CASCADE;
 -- CREATE SCHEMA book_store;
 
+-- SET DATABASE SQL SYNTAX PGS TRUE;
 
 DROP TABLE IF EXISTS book_store.book CASCADE;
 DROP TABLE IF EXISTS book_store.author;
