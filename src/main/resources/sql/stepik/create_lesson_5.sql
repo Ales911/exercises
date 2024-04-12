@@ -1,26 +1,26 @@
-DROP TABLE IF EXISTS stepik.module CASCADE;
-CREATE TABLE stepik.module
+DROP TABLE IF EXISTS module CASCADE;
+CREATE TABLE module
 (
     module_id SERIAL PRIMARY KEY,
     module_name VARCHAR(64)
 );
 
-INSERT INTO stepik.module (module_name) 
+INSERT INTO module (module_name) 
        VALUES
         ('Основы реляционной модели и SQL'),
         ('Запросы SQL к связанным таблицам'),
         ('Базы данных и SQL запросы');
 
-DROP TABLE IF EXISTS stepik.lesson CASCADE;
-CREATE TABLE stepik.lesson (
-             lesson_id	SERIAL PRIMARY KEY, 
-			 lesson_name	VARCHAR(64),
-			 module_id	int,
-			 lesson_position int,
-			 FOREIGN KEY (module_id)  REFERENCES stepik.module (module_id) ON DELETE CASCADE
+DROP TABLE IF EXISTS lesson CASCADE;
+CREATE TABLE lesson (
+    lesson_id	SERIAL PRIMARY KEY, 
+    lesson_name	VARCHAR(64),
+    module_id	int,
+    lesson_position int,
+    FOREIGN KEY (module_id)  REFERENCES module (module_id) ON DELETE CASCADE
 );			 
 		
-INSERT INTO stepik.lesson (lesson_name, module_id, lesson_position)
+INSERT INTO lesson (lesson_name, module_id, lesson_position)
        VALUES
          ('Отношение(таблица)', 1, 1),
          ('Выборка данных', 1, 2),
@@ -39,16 +39,16 @@ INSERT INTO stepik.lesson (lesson_name, module_id, lesson_position)
          ('База данных "Тестирование", запросы на выборку', 3, 1),
          ('База данных "Тестирование", запросы корректировки', 3, 2);
 
-DROP TABLE IF EXISTS stepik.step CASCADE;
-CREATE TABLE stepik.step(
+DROP TABLE IF EXISTS step CASCADE;
+CREATE TABLE step(
              step_id	SERIAL PRIMARY KEY, 
 			 step_name	VARCHAR(255),
 			 step_type VARCHAR(16),
 			 lesson_id	int,
 			 step_position int,
-			 FOREIGN KEY (lesson_id)  REFERENCES stepik.lesson (lesson_id) ON DELETE CASCADE
+			 FOREIGN KEY (lesson_id)  REFERENCES lesson (lesson_id) ON DELETE CASCADE
 );			 
-INSERT INTO stepik.step (step_name, step_type, lesson_id, step_position)
+INSERT INTO step (step_name, step_type, lesson_id, step_position)
        VALUES
 		('Структура уроков курса', 'text', 1, 1),
 		('Содержание урока', 'text', 1, 2),
@@ -214,9 +214,9 @@ INSERT INTO stepik.step (step_name, step_type, lesson_id, step_position)
 		('Задание. Удаление неактуальных попыток', 'sql', 16, 5),
 		('Запросы пользователей', 'sql', 16, 6);
         
-DROP TABLE IF EXISTS stepik.keyword CASCADE;
-CREATE TABLE stepik.keyword (keyword_id SERIAL PRIMARY KEY, keyword_name VARCHAR(16));
-INSERT INTO stepik.keyword (keyword_name) 
+DROP TABLE IF EXISTS keyword CASCADE;
+CREATE TABLE keyword (keyword_id SERIAL PRIMARY KEY, keyword_name VARCHAR(16));
+INSERT INTO keyword (keyword_name) 
        VALUES
         ('SELECT'),('FROM'),('INNER'),('LEFT'),('RIGHT'),('OUTER'),('JOIN'),('CROSS'),
         ('ON'), ('WHERE'), ('HAVING'), ('GROUP BY'), ('ORDER BY'), ('if'), ('SUM'),('AVG'),
@@ -224,39 +224,123 @@ INSERT INTO stepik.keyword (keyword_name)
         ('MONTHNAME'), ('YEAR'), ('USING'), ('UNION'), ('ALL'), ('ANY'), ('IN'), ('LIKE'), ('BETWEEN'),
         ('AND'), ('OR');
         
-DROP TABLE IF EXISTS stepik.step_keyword CASCADE;
-CREATE TABLE stepik.step_keyword (
-    step_id INT,
-    keyword_id INT,
+DROP TABLE IF EXISTS step_keyword CASCADE;
+CREATE TABLE step_keyword (
+    step_id     INT,
+    keyword_id  INT,
     PRIMARY KEY (step_id, keyword_id),
-    FOREIGN KEY (step_id)  REFERENCES stepik.step (step_id) ON DELETE CASCADE,
-    FOREIGN KEY (keyword_id)  REFERENCES stepik.keyword (keyword_id) ON DELETE CASCADE
+    FOREIGN KEY (step_id)  REFERENCES step (step_id) ON DELETE CASCADE,
+    FOREIGN KEY (keyword_id)  REFERENCES keyword (keyword_id) ON DELETE CASCADE
 );        
         
-INSERT INTO stepik.step_keyword 
-       VALUES
-(38, 1), (81, 3), (82, 4), (82, 5), (82, 6), (81, 7), (82, 7), (83, 7), (83, 8), (47, 10), (47, 11), (42, 15), (43, 16), (42, 17), (43, 18), (43, 19), (82, 21), (112, 27), (113, 27), (37, 28), (37, 29), (18, 30), (36, 30), (19, 31), (18, 32);
+INSERT INTO step_keyword  VALUES
+    (38, 1),
+    (81, 3),
+    (82, 4),
+    (82, 5),
+    (82, 6),
+    (81, 7),
+    (82, 7),
+    (83, 7),
+    (83, 8),
+    (47, 10),
+    (47, 11),
+    (42, 15),
+    (43, 16),
+    (42, 17),
+    (43, 18),
+    (43, 19),
+    (82, 21),
+    (112, 27),
+    (113, 27),
+    (37, 28),
+    (37, 29),
+    (18, 30),
+    (36, 30),
+    (19, 31),
+    (18, 32);
 
-DROP TABLE IF EXISTS stepik.student CASCADE;
-CREATE TABLE stepik.student (student_id SERIAL PRIMARY KEY, student_name VARCHAR(64));
-INSERT INTO stepik.student (student_name) 
-       VALUES        
-('student_1'), ('student_2'), ('student_3'), ('student_4'), ('student_5'), ('student_6'), ('student_7'), ('student_8'), ('student_9'), ('student_10'), ('student_11'), ('student_12'), ('student_13'), ('student_14'), ('student_15'), ('student_16'), ('student_17'), ('student_18'), ('student_19'), ('student_20'), ('student_21'), ('student_22'), ('student_23'), ('student_24'), ('student_25'), ('student_26'), ('student_27'), ('student_28'), ('student_29'), ('student_30'), ('student_31'), ('student_32'), ('student_33'), ('student_34'), ('student_35'), ('student_36'), ('student_37'), ('student_38'), ('student_39'), ('student_40'), ('student_41'), ('student_42'), ('student_43'), ('student_44'), ('student_45'), ('student_46'), ('student_47'), ('student_48'), ('student_49'), ('student_50'), ('student_51'), ('student_52'), ('student_53'), ('student_54'), ('student_55'), ('student_56'), ('student_57'), ('student_58'), ('student_59'), ('student_60'), ('student_61'), ('student_62'), ('student_63'), ('student_64');
+DROP TABLE IF EXISTS student CASCADE;
+CREATE TABLE student (student_id SERIAL PRIMARY KEY, student_name VARCHAR(64));
+INSERT INTO student (student_name) VALUES        
+    ('student_1'),
+    ('student_2'),
+    ('student_3'),
+    ('student_4'),
+    ('student_5'),
+    ('student_6'),
+    ('student_7'),
+    ('student_8'),
+    ('student_9'),
+    ('student_10'),
+    ('student_11'),
+    ('student_12'),
+    ('student_13'),
+    ('student_14'),
+    ('student_15'),
+    ('student_16'),
+    ('student_17'),
+    ('student_18'),
+    ('student_19'),
+    ('student_20'),
+    ('student_21'),
+    ('student_22'),
+    ('student_23'),
+    ('student_24'),
+    ('student_25'),
+    ('student_26'),
+    ('student_27'),
+    ('student_28'),
+    ('student_29'),
+    ('student_30'),
+    ('student_31'),
+    ('student_32'),
+    ('student_33'),
+    ('student_34'),
+    ('student_35'),
+    ('student_36'),
+    ('student_37'),
+    ('student_38'),
+    ('student_39'),
+    ('student_40'),
+    ('student_41'),
+    ('student_42'),
+    ('student_43'),
+    ('student_44'),
+    ('student_45'),
+    ('student_46'),
+    ('student_47'),
+    ('student_48'),
+    ('student_49'),
+    ('student_50'),
+    ('student_51'),
+    ('student_52'),
+    ('student_53'),
+    ('student_54'),
+    ('student_55'),
+    ('student_56'),
+    ('student_57'),
+    ('student_58'),
+    ('student_59'),
+    ('student_60'),
+    ('student_61'),
+    ('student_62'),
+    ('student_63'),
+    ('student_64');
 
-DROP TABLE IF EXISTS stepik.step_student CASCADE;
-CREATE TABLE stepik.step_student (
-             step_student_id	SERIAL PRIMARY KEY, 
-			 step_id	int,
-             student_id	int,
-			 attempt_time int,
-             submission_time int,
-             result VARCHAR(16),
-			 FOREIGN KEY (step_id)  REFERENCES stepik.step (step_id) ON DELETE CASCADE,
-             FOREIGN KEY (student_id)  REFERENCES stepik.student (student_id) ON DELETE CASCADE
+DROP TABLE IF EXISTS step_student CASCADE;
+CREATE TABLE step_student (
+    step_student_id SERIAL PRIMARY KEY, 
+    step_id         int,
+    student_id      int,
+    attempt_time    int,
+    submission_time int,
+    result          VARCHAR(16),
+    FOREIGN KEY (step_id)  REFERENCES step (step_id) ON DELETE CASCADE,
+    FOREIGN KEY (student_id)  REFERENCES student (student_id) ON DELETE CASCADE
 );	
 
-INSERT INTO stepik.step_student (step_id, student_id, attempt_time, submission_time, result) 
-       VALUES  
+INSERT INTO step_student (step_id, student_id, attempt_time, submission_time, result) VALUES
 (10, 52, 1598291444, 1598291490, 'correct'),
 (10, 11, 1593291995, 1593292031, 'correct'),
 (10, 19, 1591017571, 1591017743, 'correct'),
