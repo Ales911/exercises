@@ -1,11 +1,10 @@
-package com.example.exercises.itvdn;
+package com.example.exercises;
 
 import java.util.HashMap;
 import java.util.Iterator;
-
 import java.util.Map;
 
-public class SixthTask {
+public class ExampleMap {
 
     public static void main(String[] args) {
 
@@ -26,10 +25,10 @@ public class SixthTask {
         for (Map.Entry qurentMe2 : keyValue.entrySet()) {
             System.out.println("Ключ это: " + qurentMe2.getKey() + " Значение это: " + qurentMe2.getValue());
         }
-        
+
         System.out.println("Цикл forEach:");
         keyValue.forEach((key, value) -> System.out.println("Ключ это: " + key + " Значение это: " + value));
-        
+
     }
 
 }

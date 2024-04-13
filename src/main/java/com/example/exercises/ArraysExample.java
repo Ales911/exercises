@@ -1,5 +1,8 @@
 package com.example.exercises;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArraysExample {
 
     public void sort(int array[]) {
@@ -82,6 +85,19 @@ public class ArraysExample {
             array[i] = array[array.length - 1 - i];
             array[array.length - 1 - i] = temp;
         }
+    }
+    
+    public List<Integer> repeatInArray(int[] given) {
+        List<Integer> result = new ArrayList<>();
+        for (int i = 0; i < given.length; i++) {
+            for (int j = i + 1; j < given.length; j++) {
+                if (given[i] == given[j]) {
+                    result.add(given[i]);
+                    break;
+                }
+            }
+        }
+        return result;
     }
 
 }

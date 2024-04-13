@@ -1,8 +1,8 @@
-package com.example.exercises.itvdn;
+package com.example.exercises;
 
 import java.util.Scanner;
 
-public class SeventhTask {
+public class PrimeNumber {
 
     public static void main(String[] args) {
 
@@ -26,5 +26,5 @@ public class SeventhTask {
         }
 
     }
-
+    
 }
