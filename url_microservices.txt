@@ -43,3 +43,9 @@ Design Notification System https://shivam-sinha.medium.com/design-notification-s
 Using a Feign Client for Communication Spring Framework: Day 27 — Building Microservices with Spring Boot https://medium.com/javarevisited/spring-framework-day-27-building-microservices-with-spring-boot-fa3f8a3240d7
 
 How Shopify broke its Black Friday record (System Design case study) https://learningdaily.dev/how-shopify-broke-its-black-friday-record-system-design-case-study-f45f25bbc451
+
+How Twitter improved the processing of 400 billion events. https://medium.com/@mayank.sharma2796/how-twitter-improved-the-processing-of-400-billion-events-621b3456c9dc
+
+System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd239f30
+
+Boosting Performance with Redis Caching in Spring Boot Applications https://blog.devops.dev/boosting-performance-with-redis-caching-in-spring-boot-applications-12fc4d63bfcf

@@ -17,41 +17,23 @@
 -- SELECT region_id, AVG(rating) 
 -- FROM BOOK_STORE.CITY GROUP BY region_id HAVING AVG(rating) >= 2.6;
 
+-- Вывести всю информацию о книгах, а также для каждой позиции посчитать ее стоимость (произведение цены на количество).
+-- Вычисляемому столбцу дать имя total .
+-- SELECT B.title, A.NAME_AUTHOR, B.price, B.amount, B.price * B.amount AS total FROM book B
+--     JOIN AUTHOR A ON (A.AUTHOR_ID = B.AUTHOR_ID);
+
 -- SELECT MIN(price) AS Минимальная_цена, 
 --     MAX(price) AS Максимальная_цена, ROUND(AVG(price), 2) AS Средняя_цена 
 -- FROM book;
 
--- SELECT MIN(price) AS Минимальная_цена, 
---     MAX(price) AS Максимальная_цена, ROUND(AVG(price), 2) AS Средняя_цена 
--- FROM BOOK_STORE.book;
-
--- SELECT AUTHOR_ID, COUNT(AUTHOR_ID) as Различных_книг, SUM(amount) as Количество_экземпляров, MIN(price) AS Минимальная_цена, MAX(price) AS Максимальная_цена, AVG(price) AS Средняя_цена
--- FROM BOOK_STORE.BOOK
--- GROUP BY AUTHOR_ID;
-
--- SELECT author as Автор, COUNT(author) as Различных_книг, SUM(amount) as Количество_экземпляров
--- FROM BOOK_STORE.book
--- GROUP BY author;
-
--- SELECT author_id as Автор, COUNT(author_id) as Различных_книг, SUM(amount) as Количество_экземпляров
--- FROM BOOK_STORE.book
--- GROUP BY author_id;
-
--- SELECT author, MIN(price) AS Минимальная_цена, MAX(price) AS Максимальная_цена, AVG(price) AS Средняя_цена 
--- FROM book
--- GROUP BY author;
-
--- SELECT author_id, MIN(price) AS Минимальная_цена, MAX(price) AS Максимальная_цена, AVG(price) AS Средняя_цена 
--- FROM BOOK_STORE.book
--- GROUP BY author_id;
+-- SELECT A.NAME_AUTHOR, COUNT(A.NAME_AUTHOR) as Различных_книг, SUM(B.amount) as Количество_экземпляров, MIN(B.price) AS Минимальная_цена, MAX(B.price) AS Максимальная_цена, AVG(B.price) AS Средняя_цена
+-- FROM BOOK B
+-- JOIN AUTHOR A ON (A.AUTHOR_ID = B.AUTHOR_ID)
+-- GROUP BY A.NAME_AUTHOR;
 
 -- SELECT author, ROUND(price*amount,2) AS Стоимость, ROUND(price*amount*0.18,2) AS НДС, ROUND(price*amount*0.82,2) AS Стоимость_без_НДС
 -- FROM book
 -- GROUP BY author, price, amount;
-
--- SELECT author_id, ROUND(price*amount,2) AS Стоимость, ROUND(price*amount*0.18,2) AS НДС, ROUND(price*amount*0.82,2) AS Стоимость_без_НДС
--- FROM BOOK_STORE.book
--- GROUP BY author_id, price, amount;
 
 -- SELECT author,
 --     MIN(price) AS Минимальная_цена, 
@@ -60,23 +42,10 @@
 -- GROUP BY author
 -- HAVING SUM(price * amount) > 5000; 
 
--- SELECT author_id,
---     MIN(price) AS Минимальная_цена, 
---     MAX(price) AS Максимальная_цена
--- FROM BOOK_STORE.book
--- GROUP BY author_id
--- HAVING SUM(price * amount) > 5000; 
-
 -- SELECT 
 --     ROUND(AVG(price), 2) AS Средняя_цена, 
 --     ROUND(SUM(price*amount), 2) AS Стоимость
 -- FROM book
--- WHERE amount between 5 and 10; 
-
--- SELECT 
---     ROUND(AVG(price), 2) AS Средняя_цена, 
---     ROUND(SUM(price*amount), 2) AS Стоимость
--- FROM BOOK_STORE.book
 -- WHERE amount between 5 and 10; 
 
 -- SELECT author,
@@ -87,22 +56,13 @@
 -- HAVING SUM(price*amount) > 5000
 --ORDER BY SUM(price*amount);
 
--- SELECT author_id,
---     SUM(price*amount) AS Стоимость
--- FROM BOOK_STORE.book
+-- SELECT NAME_AUTHOR, SUM(price*amount) AS Стоимость
+-- FROM book
+-- JOIN AUTHOR USING(AUTHOR_ID) 
 -- WHERE (title <> 'Идиот') AND (title <> 'Белая гвардия') 
--- GROUP BY author_id
+-- GROUP BY NAME_AUTHOR
 -- HAVING SUM(price*amount) > 5000
 -- ORDER BY SUM(price*amount);
-
--- SELECT a.NAME_AUTHOR,
---     SUM(b.price*b.amount) AS Стоимость
--- FROM BOOK_STORE.book b
--- JOIN BOOK_STORE.AUTHOR a ON(a.AUTHOR_ID=b.AUTHOR_ID) 
--- WHERE (b.title <> 'Идиот') AND (b.title <> 'Белая гвардия') 
--- GROUP BY a.NAME_AUTHOR
--- HAVING SUM(b.price*b.amount) > 5000
--- ORDER BY SUM(b.price*b.amount);
 
 -- SELECT title, author, price, amount
 -- FROM book

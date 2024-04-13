@@ -2,7 +2,7 @@ package com.example.exercises.streams;
 
 import java.util.Arrays;
 
-public class AlphanumericFilterExample {
+public class AlphanumericFilter {
 
     public static void main(String[] args) {
         String str = "a1b2c3d4e5f6g7h8i9j0";

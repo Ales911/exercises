@@ -1,5 +1,6 @@
-package com.example.exercises.streams;
+package com.example.exercises;
 
+import com.example.exercises.FindSmallestMissingPositive;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;

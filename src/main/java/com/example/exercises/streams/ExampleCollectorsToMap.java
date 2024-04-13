@@ -6,7 +6,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-public class CollectorsToMapExample {
+public class ExampleCollectorsToMap {
 
     // @formatter:off
     record Book(String name, int releaseYear, String isbn) {};

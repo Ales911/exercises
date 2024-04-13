@@ -8,7 +8,7 @@ import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.stream.Collectors;
 
-public class GroupingByExampleStudent {
+public class ExampleGroupingByStudent {
 
     public static void main(String[] args) {
 
@@ -73,7 +73,7 @@ public class GroupingByExampleStudent {
                 .max(Map.Entry.comparingByValue()).get();
         System.out.println("Department having maximum number of students : " + entry);
 
-        // 11 Find the GroupingByExampleStudent who stays in Delhi and sort them by their names
+        // 11 Find the ExampleGroupingByStudent who stays in Delhi and sort them by their names
         List<Student> lstDelhistudent = list.stream().filter(dt -> dt.city().equals("Delhi"))
                 .sorted(Comparator.comparing(Student::firstName)).toList();
         System.out.println("List of students who stays in Delhi and sort them by their names : " + lstDelhistudent);

@@ -1,6 +1,6 @@
 package com.example.exercises.streams;
 
-import com.example.exercises.streams.CollectorsToMapExample.Person;
+import com.example.exercises.streams.ExampleCollectorsToMap.Person;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -9,16 +9,16 @@ import org.junit.jupiter.api.Assertions;
 
 public class CollectorsToMapExampleTest {
 
-    private final List<CollectorsToMapExample.Book> bookList = List.of(
-            new CollectorsToMapExample.Book("The Fellowship of the Ring", 1954, "0395489318"),
-            new CollectorsToMapExample.Book("The Two Towers", 1954, "0345339711"),
-            new CollectorsToMapExample.Book("The Return of the King", 1955, "0618129111"));
+    private final List<ExampleCollectorsToMap.Book> bookList = List.of(
+            new ExampleCollectorsToMap.Book("The Fellowship of the Ring", 1954, "0395489318"),
+            new ExampleCollectorsToMap.Book("The Two Towers", 1954, "0345339711"),
+            new ExampleCollectorsToMap.Book("The Return of the King", 1955, "0618129111"));
 
-    private final List<CollectorsToMapExample.Person> persons = List.of(
-            new CollectorsToMapExample.Person("Adam", 19),
-            new CollectorsToMapExample.Person("Eva", 19));
+    private final List<ExampleCollectorsToMap.Person> persons = List.of(
+            new ExampleCollectorsToMap.Person("Adam", 19),
+            new ExampleCollectorsToMap.Person("Eva", 19));
 
-    private final CollectorsToMapExample collectorsToMapExample = new CollectorsToMapExample();
+    private final ExampleCollectorsToMap collectorsToMapExample = new ExampleCollectorsToMap();
 
     @Test
     public void whenConvertFromBookListToMap() {
@@ -36,7 +36,7 @@ public class CollectorsToMapExampleTest {
 
     @Test
     public void whenMapHasDuplicateKeyThenMergeFunctionHandlesCollision() {
-        Map<Integer, CollectorsToMapExample.Book> booksByYear = collectorsToMapExample.listToMapWithDupKey(bookList);
+        Map<Integer, ExampleCollectorsToMap.Book> booksByYear = collectorsToMapExample.listToMapWithDupKey(bookList);
         System.out.println(booksByYear);
         Assertions.assertEquals(2, booksByYear.size());
         Assertions.assertEquals("0395489318", booksByYear.get(1954).isbn());
@@ -44,7 +44,7 @@ public class CollectorsToMapExampleTest {
 
     @Test
     public void whenCreateConcurrentHashMap() {
-        Map<Integer, CollectorsToMapExample.Book> result = collectorsToMapExample.listToConcurrentMap(bookList);
+        Map<Integer, ExampleCollectorsToMap.Book> result = collectorsToMapExample.listToConcurrentMap(bookList);
         System.out.println(result);
         Assertions.assertTrue(result instanceof ConcurrentHashMap);
     }
