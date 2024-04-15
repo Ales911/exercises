@@ -2,7 +2,7 @@ package com.example.exercises.threads.synchronizers;
 
 import java.util.concurrent.CountDownLatch;
 
-public class Race {
+public class ExampleCountDownLatch {
 
  private static final int trackLength = 500000;
  

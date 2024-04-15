@@ -1,4 +1,4 @@
-package com.example.exercises;
+package com.example.exercises.functional;
 
 import java.util.Optional;
 import java.util.function.DoubleSupplier;

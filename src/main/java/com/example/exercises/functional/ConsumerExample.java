@@ -1,4 +1,4 @@
-package com.example.exercises;
+package com.example.exercises.functional;
 
 import java.util.Arrays;
 import java.util.List;

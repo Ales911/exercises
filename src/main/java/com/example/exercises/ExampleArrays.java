@@ -1,9 +1,10 @@
 package com.example.exercises;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-public class ArraysExample {
+public class ExampleArrays {
 
     public void sort(int array[]) {
         // Arrays.sort(array);
@@ -98,6 +99,18 @@ public class ArraysExample {
             }
         }
         return result;
+    }
+    
+    public void binarySearchExample() {
+        List<Integer> numbers = new ArrayList<>();
+        numbers.add(20);
+        numbers.add(30);
+        numbers.add(40);
+        numbers.add(60);
+        numbers.add(50);
+        
+        int index = Collections.binarySearch(numbers, 40);
+        System.out.println("Index of 40 in the list is: " + index);
     }
 
 }

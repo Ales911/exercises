@@ -2,7 +2,7 @@ package com.example.exercises.threads.synchronizers;
 
 import java.util.concurrent.CyclicBarrier;
 
-public class Ferry {
+public class ExampleCyclicBarrier {
 
     public static void main(String[] args) throws InterruptedException {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(3);

@@ -49,3 +49,5 @@ How Twitter improved the processing of 400 billion events. https://medium.com/@m
 System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd239f30
 
 Boosting Performance with Redis Caching in Spring Boot Applications https://blog.devops.dev/boosting-performance-with-redis-caching-in-spring-boot-applications-12fc4d63bfcf
+
+(Part 2) Microservice Challenges Senior Developers Are Solving https://blog.stackademic.com/part-2-microservice-challenges-senior-developers-are-solving-7ba6d3e12957

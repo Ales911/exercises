@@ -2,7 +2,7 @@ package com.example.exercises.threads.synchronizers;
 
 import java.util.concurrent.Semaphore;
 
-public class PhilosopherSemaphore {
+public class ExampleSemaphore {
 
     public static void main(String[] args) {
 

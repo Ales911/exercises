@@ -2,7 +2,7 @@ package com.example.exercises.threads.synchronizers;
 
 import java.util.concurrent.Exchanger;
 
-public class Delivery {
+public class ExampleExchanger {
 
     public static void main(String[] args) throws InterruptedException {
 
