@@ -51,3 +51,13 @@ System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd
 Boosting Performance with Redis Caching in Spring Boot Applications https://blog.devops.dev/boosting-performance-with-redis-caching-in-spring-boot-applications-12fc4d63bfcf
 
 (Part 2) Microservice Challenges Senior Developers Are Solving https://blog.stackademic.com/part-2-microservice-challenges-senior-developers-are-solving-7ba6d3e12957
+
+How does Uber build real-time infrastructure to handle petabytes of data every day? https://blog.det.life/how-does-uber-build-real-time-infrastructure-to-handle-petabytes-of-data-every-day-ddf5fe9b5d2c
+
+How to Analyze Memory Leaks in Containerized Java Applications ? https://medium.com/trendyol-tech/how-to-analyze-memory-leaks-in-containerized-java-applications-878f4b231615
+
+How to design a Read Heavy system ? Some strategies and best practices https://medium.com/@vinciabhinav7/how-to-design-a-read-heavy-system-some-strategies-and-best-practices-20e416a77cfd
+
+MicroService Patterns: Retry with Spring Boot https://medium.com/@truongbui95/microservice-patterns-retry-with-spring-boot-03b4d59f7c8c
+
+Step-by-Step Guide to OpenTelemetry with Spring Boot Microservices https://blog.stackademic.com/step-by-step-guide-to-opentelemetry-with-spring-boot-microservices-b9d5e36d886a

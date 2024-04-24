@@ -10,9 +10,9 @@ public class TwoSumHash {
         Map<Integer, Integer> map = new HashMap<>();
         int length = given.length;
         for (int i = 0; i < length; i++) {
-            int j = target - given[i];
-            if (map.containsKey(j)) {
-                return new int[]{i, map.get(j)};
+            int expected = target - given[i];
+            if (map.containsKey(expected)) {
+                return new int[]{i, map.get(expected)};
             }
             map.put(given[i], i);
         }

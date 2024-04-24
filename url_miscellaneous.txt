@@ -69,3 +69,5 @@ Multitenancy in Java with Spring Boot and Hibernate with an example https://medi
 Simplifying Database Access with @NoRepositoryBean https://blog.octalabs.com/simplifying-database-access-with-norepositorybean-cc9c8d8c309a
 
 When to use GraphQL, gRPC, and REST? https://medium.com/@techworldwithmilan/when-to-use-graphql-grpc-and-rest-9d541c0bcfe0
+
+Custom Rate Limiter for Java https://blog.devops.dev/custom-rate-limiter-for-java-c19f56707c35
