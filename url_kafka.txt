@@ -11,3 +11,9 @@ Design a Real-Time Leaderboard system for millions of users https://medium.com/@
 Spring Boot, Kafka, and WebSocket: A Practical Approach to Real-Time Messaging https://umar-fajar14.medium.com/spring-boot-kafka-and-websocket-a-practical-approach-to-real-time-messaging-6169f5995fe1
 
 Kafka Architecture https://medium.com/@cobch7/kafka-architecture-43333849e0f4
+
+Synchronously Load 100000 Records into DB within seconds And Publish all the data to Kafka Topic And Consume it in Kafka Consumer Spring Boot Application https://medium.com/@sehgal.mohit06/synchronously-load-100000-records-into-db-within-seconds-and-publish-all-the-data-to-kafka-topic-470bfe8fcbc0
+
+Handling message duplication in Kafka https://blog.tarkalabs.com/handling-message-duplication-in-kafka-8f4b9b312f91
+
+Kafka Connect: A Love/Hate Relationship https://medium.com/@leal901/kafka-connect-a-love-hate-relationship-3fa69361f6e6

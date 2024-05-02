@@ -1,5 +1,6 @@
 package com.example.exercises.streams;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.stream.Stream;
 
@@ -17,22 +18,30 @@ public class ExampleReduce {
     void example1() {
         Stream<Integer> numbersStream = Stream.of(1, 2, 3, 4, 5, 6);
         Optional<Integer> result = numbersStream.reduce((x, y) -> x * y);
-        log.info("example1(): " + String.valueOf(result.get())); // 720
+        System.out.println("example1(): " + String.valueOf(result.get())); // 720
     }
 
     void example2() {
-        Stream<String> wordsStream = Stream.of("mom", "cleaned", "window");
-        Optional<String> sentence = wordsStream.reduce((x, y) -> x + " " + y);
-        log.info("example2(): " + sentence.get()); // mom cleaned window
+        Stream<Integer> numbersStream = Stream.of(1, 2, 3, 4, 5, 6);
+        int result = numbersStream.reduce(2, (x, y) -> x * y);
+        System.out.println("example3(): " + result); // 1440
     }
 
     void example3() {
-        Stream<Integer> numbersStream = Stream.of(1, 2, 3, 4, 5, 6);
-        int result = numbersStream.reduce(2, (x, y) -> x * y);
-        log.info("example3(): " + result); // 1440
+        Stream<String> wordsStream = Stream.of("mom", "cleaned", "window");
+        Optional<String> sentence = wordsStream.reduce((x, y) -> x + " " + y);
+        System.out.println("example2(): " + sentence.get()); // mom cleaned window
     }
 
     void example4() {
+        List<Integer> numbers = List.of(1, 2, 3, 4, 5);
+        Integer sum = numbers
+                .stream()
+                .reduce(0, Integer::sum);
+        System.out.println("sum: " + sum); // 15
+    }
+
+    void example5() {
         Stream<Phone> phoneStream = Stream.of(new Phone("iPhone 6 S", 54000),
                 new Phone("Lumia 950", 45000),
                 new Phone("Samsung Galaxy S 6", 40000),
@@ -48,7 +57,7 @@ public class ExampleReduce {
                 },
                 (x, y) -> x + y);
 
-        log.info("example4(): " + sum); // 117000
+        System.out.println("example4(): " + sum); // 117000
     }
 
     public static void main(String[] args) {
@@ -58,6 +67,7 @@ public class ExampleReduce {
         exampleReduce.example2();
         exampleReduce.example3();
         exampleReduce.example4();
+        exampleReduce.example5();
     }
 
 }

@@ -1,1 +1,4 @@
 The Most Common Domain-Driven Design Mistake https://medium.com/navalia/the-most-common-domain-driven-design-mistake-6c3f90e0ec2b
+
+Clean DDD lessons: project structure and naming conventions https://medium.com/unil-ci-software-engineering/clean-ddd-lessons-project-structure-and-naming-conventions-00d0b9c57610
+

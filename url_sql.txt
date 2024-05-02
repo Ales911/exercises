@@ -11,3 +11,7 @@ Concurrency Control in Java Persistence API (JPA) with Hibernate: Optimistic vs.
 Курс «PostgreSQL для начинающих»: #4 — Анализ запросов (ч.1 — как и зачем читать планы) https://habr.com/ru/companies/tensor/articles/790282/
 SQL – execution plan https://www.olegaxenow.com/2011/04/sql-execution-plan.html
 Explore JPA (Java Persistence API) Mastery with Java and Spring Boot (SQL) - Part 2 https://medium.com/@kharvinagaraj1/explore-jpa-java-persistence-api-mastery-with-java-and-spring-boot-sql-part-2-cfe13f601f46
+Cassandra Architecture Every Backend Developer Should Know https://blog.stackademic.com/architecture-of-cassandra-6d9d248a7463
+
+Database Optimization: Troubleshoot Slow Database Query https://dip-mazumder.medium.com/database-optimization-troubleshoot-slow-database-query-b66f3dbea42f
+

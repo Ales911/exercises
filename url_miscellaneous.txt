@@ -71,3 +71,9 @@ Simplifying Database Access with @NoRepositoryBean https://blog.octalabs.com/sim
 When to use GraphQL, gRPC, and REST? https://medium.com/@techworldwithmilan/when-to-use-graphql-grpc-and-rest-9d541c0bcfe0
 
 Custom Rate Limiter for Java https://blog.devops.dev/custom-rate-limiter-for-java-c19f56707c35
+Implementing fault tolerance in Spring Boot Application using Resilience4j https://medium.com/@sehgal.mohit06/implementing-fault-tolerance-in-spring-boot-application-using-resilience4j-f8a00d4e8204
+
+Spring Batch Overview https://medium.com/@ankithahjpgowda/spring-batch-overview-ae780f6855d2
+
+Mastering Unit Testing in Spring Boot Applications — The Service & Controller layer https://towardsdev.com/mastering-unit-testing-in-spring-boot-applications-the-service-controller-layer-ef4cc2343d25
+

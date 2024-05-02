@@ -61,3 +61,7 @@ How to design a Read Heavy system ? Some strategies and best practices https://m
 MicroService Patterns: Retry with Spring Boot https://medium.com/@truongbui95/microservice-patterns-retry-with-spring-boot-03b4d59f7c8c
 
 Step-by-Step Guide to OpenTelemetry with Spring Boot Microservices https://blog.stackademic.com/step-by-step-guide-to-opentelemetry-with-spring-boot-microservices-b9d5e36d886a
+
+Load Balancer vs Reverse Proxy vs API Gateway https://medium.com/codenx/load-balancer-vs-reverse-proxy-vs-api-gateway-fcb79912abbf
+
+System Design Interview Question: Design URL Shortener https://levelup.gitconnected.com/system-design-interview-question-design-url-shortener-c3278a99fc35

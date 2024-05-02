@@ -1,3 +1,4 @@
+System Design Concepts: Networking Essentials https://levelup.gitconnected.com/system-design-concepts-networking-essentials-09798e0ff7b4
 
 How does URL shortening for TinyUrl, Bit.ly work? https://medium.com/javarevisited/day-1-high-level-system-design-series-url-shortening-d28888d71084
 Day 2 — High Level System Design Series -How does YouTube stream millions of videos daily? https://medium.com/javarevisited/how-does-youtube-stream-millions-of-videos-daily-3d8627d297e5
@@ -5,4 +6,5 @@ Day 2 — High Level System Design Series -How does YouTube stream millions of v
 System design: Instagram https://medium.com/@sureshpodeti/system-design-instagram-cf9bf09bb627
 Tinder — Fully explained System Design and Architecture https://kasunprageethdissanayake.medium.com/tinder-fully-explained-system-design-and-architecture-1225ecdfe64e
 System design: Uber https://medium.com/@sureshpodeti/system-design-uber-378a23bcc7df
-JWT Refresh Token : Spring Security https://medium.com/spring-boot/jwt-refresh-token-spring-security-c5b4646cdbd9
+
+Data Gateway — A Platform for Growing and Protecting the Data Tier https://netflixtechblog.medium.com/data-gateway-a-platform-for-growing-and-protecting-the-data-tier-f1ed8db8f5c6
