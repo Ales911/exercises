@@ -17,3 +17,5 @@ Synchronously Load 100000 Records into DB within seconds And Publish all the dat
 Handling message duplication in Kafka https://blog.tarkalabs.com/handling-message-duplication-in-kafka-8f4b9b312f91
 
 Kafka Connect: A Love/Hate Relationship https://medium.com/@leal901/kafka-connect-a-love-hate-relationship-3fa69361f6e6
+
+Spring Boot 3 Crash Course Part 8: Integrating Apache Kafka https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-8-integrating-apache-kafka-dec884f4b5fb

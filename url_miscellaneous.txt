@@ -77,3 +77,4 @@ Spring Batch Overview https://medium.com/@ankithahjpgowda/spring-batch-overview-
 
 Mastering Unit Testing in Spring Boot Applications — The Service & Controller layer https://towardsdev.com/mastering-unit-testing-in-spring-boot-applications-the-service-controller-layer-ef4cc2343d25
 
+JPA Auditing — Spring Boot & Spring Security https://medium.com/thefreshwrites/jpa-auditing-spring-boot-spring-security-575c77867570
