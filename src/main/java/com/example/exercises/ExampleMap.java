@@ -15,14 +15,14 @@ public class ExampleMap {
         keyValue.put(3, "Have a nice day!");
         System.out.println(keyValue.size());
         System.out.println("Цикл While:");
-        Iterator iter = keyValue.entrySet().iterator();
-        while (iter.hasNext()) {
-            Map.Entry qurentMe = (Map.Entry) iter.next();
+        Iterator<Map.Entry<Integer, String>> iterator = keyValue.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<Integer, String> qurentMe = iterator.next();
             System.out.println("Ключ это " + qurentMe.getKey() + " Значение это " + qurentMe.getValue());
         }
 
         System.out.println("Цикл For:");
-        for (Map.Entry qurentMe2 : keyValue.entrySet()) {
+        for (Map.Entry<Integer, String> qurentMe2 : keyValue.entrySet()) {
             System.out.println("Ключ это: " + qurentMe2.getKey() + " Значение это: " + qurentMe2.getValue());
         }
 

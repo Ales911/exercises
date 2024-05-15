@@ -6,6 +6,7 @@ Day 2 — High Level System Design Series -How does YouTube stream millions of v
 System design: Instagram https://medium.com/@sureshpodeti/system-design-instagram-cf9bf09bb627
 Tinder — Fully explained System Design and Architecture https://kasunprageethdissanayake.medium.com/tinder-fully-explained-system-design-and-architecture-1225ecdfe64e
 System design: Uber https://medium.com/@sureshpodeti/system-design-uber-378a23bcc7df
+A Brief History of Airbnb’s Architecture https://medium.com/@mananshah3654/a-brief-history-of-airbnbs-architecture-bce6d0405f9c
 
 Data Gateway — A Platform for Growing and Protecting the Data Tier https://netflixtechblog.medium.com/data-gateway-a-platform-for-growing-and-protecting-the-data-tier-f1ed8db8f5c6
 

@@ -78,3 +78,9 @@ Spring Batch Overview https://medium.com/@ankithahjpgowda/spring-batch-overview-
 Mastering Unit Testing in Spring Boot Applications — The Service & Controller layer https://towardsdev.com/mastering-unit-testing-in-spring-boot-applications-the-service-controller-layer-ef4cc2343d25
 
 JPA Auditing — Spring Boot & Spring Security https://medium.com/thefreshwrites/jpa-auditing-spring-boot-spring-security-575c77867570
+
+How to Replace Quartz with Shedlock https://medium.com/tav-technologies/how-to-replace-quartz-with-shedlock-ae7c16951cf9
+
+Java: Event Driven architecture https://medium.com/@alxkm/java-event-driven-architecture-dc456d324ba5
+
+The ULTIMATE Guide To Advancing From a Junior to a Mid-Level Web Developer https://levelup.gitconnected.com/the-ultimate-guide-to-advancing-from-a-junior-to-a-mid-level-web-developer-8497a8f008aa
