@@ -90,4 +90,18 @@ public class ExampleStrings {
 
         return found;
     }
+    
+    public boolean canConstruct(String ransomNote, String magazine) {
+        Map<Character, Integer> m = new HashMap<>();
+        for (Character c : magazine.toCharArray()) {
+            m.merge(c, 1, Integer::sum);
+        }
+        for (Character c : ransomNote.toCharArray()) {
+            if (m.merge(c, -1, Integer::sum) < 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
 }

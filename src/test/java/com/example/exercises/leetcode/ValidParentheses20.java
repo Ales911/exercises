@@ -1,8 +1,8 @@
-package com.example.exercises;
+package com.example.exercises.leetcode;
 
 import java.util.Stack;
 
-public class BalancedParentheses {
+public class ValidParentheses20 {
 
     public static boolean isBalanced(String s) {
         Stack<Character> stack = new Stack<>();

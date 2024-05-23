@@ -12,13 +12,13 @@ public class TwoPointersTest {
 
     @ParameterizedTest
     @MethodSource("getTestDataForTwoSum")
-    void twoSumTest(int[] arg1, int arg2, boolean expected) {
-        Assertions.assertEquals(expected, twoPointers.twoSum(arg1, arg2));
+    void twoSumTest(int[] given, int expected) {
+        Assertions.assertTrue(twoPointers.twoSum(given, expected));
     }
 
     public static Stream<Arguments> getTestDataForTwoSum() {
         return Stream.of(
-                Arguments.of(new int[]{1, 1, 2, 3, 4, 6, 8, 9}, 11, true)
+                Arguments.of(new int[]{1, 1, 2, 3, 4, 6, 8, 9}, 11)
         );
     }
     

@@ -1,3 +1,5 @@
+Getting started with Microservices https://medium.com/javarevisited/getting-started-with-microservices-4266f440086f
+
 Golden Rules for System Design Interview https://medium.com/@aqilzeka99/golden-rules-for-system-design-interview-c233295701e2
 
 Microservices Interview Questions https://medium.com/@maanand/microservices-interview-questions-8d227e00d755
@@ -43,16 +45,14 @@ Design Notification System https://shivam-sinha.medium.com/design-notification-s
 Using a Feign Client for Communication Spring Framework: Day 27 — Building Microservices with Spring Boot https://medium.com/javarevisited/spring-framework-day-27-building-microservices-with-spring-boot-fa3f8a3240d7
 
 How Shopify broke its Black Friday record (System Design case study) https://learningdaily.dev/how-shopify-broke-its-black-friday-record-system-design-case-study-f45f25bbc451
-
 How Twitter improved the processing of 400 billion events. https://medium.com/@mayank.sharma2796/how-twitter-improved-the-processing-of-400-billion-events-621b3456c9dc
-
 System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd239f30
+How does Uber build real-time infrastructure to handle petabytes of data every day? https://blog.det.life/how-does-uber-build-real-time-infrastructure-to-handle-petabytes-of-data-every-day-ddf5fe9b5d2c
+Server bootstrap optimization using RocksDB https://blog.flipkart.tech/server-bootstrap-optimization-using-rocksdb-3378b5af55dc
 
 Boosting Performance with Redis Caching in Spring Boot Applications https://blog.devops.dev/boosting-performance-with-redis-caching-in-spring-boot-applications-12fc4d63bfcf
 
 (Part 2) Microservice Challenges Senior Developers Are Solving https://blog.stackademic.com/part-2-microservice-challenges-senior-developers-are-solving-7ba6d3e12957
-
-How does Uber build real-time infrastructure to handle petabytes of data every day? https://blog.det.life/how-does-uber-build-real-time-infrastructure-to-handle-petabytes-of-data-every-day-ddf5fe9b5d2c
 
 How to Analyze Memory Leaks in Containerized Java Applications ? https://medium.com/trendyol-tech/how-to-analyze-memory-leaks-in-containerized-java-applications-878f4b231615
 

@@ -79,5 +79,28 @@ public class ExampleIntegersTest {
                 Arguments.of(1999, 4),
                 Arguments.of(Integer.MAX_VALUE, 10));
     }
+    
+    
+    void methodForParamTest(Integer param) {
+        param++;
+    }
+    
+    @Test
+    void paramTest1() {
+        Integer given = 0;
+        methodForParamTest(given);
+        Assertions.assertEquals((Integer) 0, given);
+    }
+    
+    void methodForParamTest2(int param) {
+        param++;
+    }
+    
+    @Test
+    void paramTest2() {
+        int given = 0;
+        methodForParamTest2(given);
+        Assertions.assertEquals(0, given);
+    }
 
 }

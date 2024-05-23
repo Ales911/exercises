@@ -1,7 +1,10 @@
 package com.example.exercises;
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -56,5 +59,51 @@ public class ExampleStringsTest {
 
         Assertions.assertEquals(expected, exampleStrings.searchKMP(given, sample));
     }
+
+    @Test
+    void hashSetTest() {
+        Set<String> hs = new HashSet<>();
+        hs.add("Abcd");
+        hs.add("efg");
+        hs.add("abcd");
+        String s = new String("Abcd");
+        hs.add(s);
+        hs.add("Abcdefg");
+
+        System.out.println(hs);
+    }
+
+    @Test
+    void canConstructTest() {
+        String ransomNote = "a";
+        String magazine = "b";
+
+        Assertions.assertFalse(exampleStrings.canConstruct(ransomNote, magazine));
+    }
+
+    public int longestPalindrome(String s) {
+        Map<Character, Integer> map = new HashMap<>();
+        for (int i = 0; i < s.length(); i++) {
+            map.merge(s.charAt(i), 1, Integer::sum);
+        }
+        int count = 0;
+        for (Map.Entry<Character, Integer> e : map.entrySet()) {
+            if (e.getValue() % 2 != 0) {
+                count++;
+            }
+        }
+        return (count == 0) ? s.length() : s.length() - count + 1;
+    }
+    
+    @Test
+    void longestPalindromeTest1() {
+        Assertions.assertEquals(7, longestPalindrome("abccccdd"));
+    }
+    
+    @Test
+    void longestPalindromeTest2() {
+        Assertions.assertEquals(9, longestPalindrome("abcccceeedd"));
+    }
+    
 
 }

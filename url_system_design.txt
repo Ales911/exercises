@@ -11,3 +11,5 @@ A Brief History of Airbnb’s Architecture https://medium.com/@mananshah3654/a-b
 Data Gateway — A Platform for Growing and Protecting the Data Tier https://netflixtechblog.medium.com/data-gateway-a-platform-for-growing-and-protecting-the-data-tier-f1ed8db8f5c6
 
 How facebook live solved “thundering herd” problem? https://medium.com/@mayank.sharma2796/how-facebook-live-solved-thundering-herd-problem-7ae897fd2186
+
+A Guide to Communication Styles in Microservices Architecture https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2

@@ -19,3 +19,12 @@ Handling message duplication in Kafka https://blog.tarkalabs.com/handling-messag
 Kafka Connect: A Love/Hate Relationship https://medium.com/@leal901/kafka-connect-a-love-hate-relationship-3fa69361f6e6
 
 Spring Boot 3 Crash Course Part 8: Integrating Apache Kafka https://medium.com/@ben.meehan_27368/spring-boot-3-crash-course-part-8-integrating-apache-kafka-dec884f4b5fb
+
+Kafka Exception Handling and Retry Mechanism https://medium.com/@cobch7/kafka-exception-handling-and-retry-mechanism-a911541321fe
+
+How We Solve Load Balancing Challenges in Apache Kafka https://medium.com/agoda-engineering/how-we-solve-load-balancing-challenges-in-apache-kafka-8cd88fdad02b
+
+Kafka Interview Question for experienced Java developer in 2024 https://rathod-ajay.medium.com/kafka-interview-question-for-experienced-developer-in-2024-01b95d126cdd
+
+Creating a News Notification System with Kafka and Spring Boot https://blog.devgenius.io/creating-a-news-notification-system-with-kafka-and-spring-boot-01b41837e807
+

@@ -84,3 +84,7 @@ How to Replace Quartz with Shedlock https://medium.com/tav-technologies/how-to-r
 Java: Event Driven architecture https://medium.com/@alxkm/java-event-driven-architecture-dc456d324ba5
 
 The ULTIMATE Guide To Advancing From a Junior to a Mid-Level Web Developer https://levelup.gitconnected.com/the-ultimate-guide-to-advancing-from-a-junior-to-a-mid-level-web-developer-8497a8f008aa
+
+Трассировка сервисов, OpenTracing и Jaeger https://habr.com/ru/companies/srg/articles/446752/
+
+Полное руководство по Prometheus в 2019 году https://habr.com/ru/companies/slurm/articles/455290/

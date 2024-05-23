@@ -88,7 +88,7 @@ public class ExampleCompareTest {
         System.out.println(source);
         Assertions.assertIterableEquals(fruitsExpected, source);
     }
-    
+
     @Test
     void fruitsNullSortTest() {
         List<String> source = new ArrayList<>();
@@ -105,7 +105,7 @@ public class ExampleCompareTest {
         System.out.println(source);
         Assertions.assertIterableEquals(expected, source);
     }
-    
+
     @Test
     void employeeSortTest() {
         final List<Employee> given = new ArrayList<>(List.of(
@@ -122,8 +122,16 @@ public class ExampleCompareTest {
                 new Employee(1, "John Smith", 5000, "Marketing", "New York", 28),
                 new Employee(5, "Alice", 7000, "HR", "San Francisco", 29),
                 new Employee(4, "Sarah Lee", 5500, "HR", "Pune", 30)));
-        
+
         given.sort(Comparator.comparingInt(Employee::age).thenComparing(Comparator.comparing(Employee::salary)));
+        Assertions.assertIterableEquals(expected, given);
+    }
+
+    @Test
+    void integerSortTest() {
+        List<Integer> numbers = List.of(1, 2, 3, 2, 4, 5, 1);
+        List<Integer> given = numbers.stream().distinct().sorted(Comparator.comparingInt(Integer::intValue).reversed()).toList();
+        List<Integer> expected = List.of(5, 4, 3, 2, 1);
         Assertions.assertIterableEquals(expected, given);
     }
 
