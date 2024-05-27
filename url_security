@@ -27,3 +27,4 @@ Implementing CSRF Security in a Spring Boot Application https://medium.com/@thec
 [Part 1] — Implementing Authentication with Spring Boot Security 6, OAuth2, and Angular 17 via Multiple Identity Providers https://blog.devgenius.io/implementing-authentication-with-spring-boot-security-6-oauth2-and-angular-17-via-multiple-4144075e5fef
 
 JWT Authentication with Spring Boot 3 and Java 17 https://medium.com/@berktorun.dev/the-grand-tour-spring-security-and-jwt-authentication-dfd20040fbd6
+JWT Mechanism in Spring Security 6 (without WebSecurityConfigurerAdapter) https://medium.com/javarevisited/jwt-in-spring-security-6-with-database-connection-without-websecurityconfigureradapter-e74344196d11
