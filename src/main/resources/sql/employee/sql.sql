@@ -24,10 +24,18 @@
 -- write a query which gives me two persons highest salary earner can you tell me the query
 -- 1.
 --select * from employee;
-select DISTINCT(salary) from employee order by salary desc limit 1,1
+--select DISTINCT(salary) from employee order by salary desc limit 1,1
 -- Note:
 -- limit 0,1 - Top max salary limit 1,1 - Second max salary limit 2,1 - Third max salary limit 3,1 - Fourth max salary
 -- 2.We can do that like this
 -- SELECT Salary FROM (SELECT DISTINCT Salary FROM Employee ORDER BY Salary desc) WHERE ROWNUM <= 2;
 -- 3.
 -- select (SELECT MAX(Salary) FROM Employee) maxsalary, (SELECT MAX(Salary) FROM Employee WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employee )) as nd_max_salary
+
+-- SELECT e.name FROM employee e
+-- JOIN gate g ON (g.user_id = e.id) and g.gate_out IS NOT NULL
+-- GROUP BY e.name
+-- HAVING COUNT(e.name) > 1
+
+select now(), current_timestamp, localtimestamp, now() at time zone 'UTC'
+

@@ -91,7 +91,7 @@ pom.xml:
     
 </project>
 -----
-docker run -d -p 9090:9090 -v /home/alex/Projects/custom-metrics-spring-boot-demo/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+docker run -d -p 9090:9090 -v /home/alex/projects/custom-metrics-spring-boot-demo/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
 docker run -d -p 3000:3000 grafana/grafana   
 
 Grafana pass:'tc*9!5v_fR,$";

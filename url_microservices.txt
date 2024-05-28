@@ -47,6 +47,7 @@ Using a Feign Client for Communication Spring Framework: Day 27 — Building Mic
 How Shopify broke its Black Friday record (System Design case study) https://learningdaily.dev/how-shopify-broke-its-black-friday-record-system-design-case-study-f45f25bbc451
 How Twitter improved the processing of 400 billion events. https://medium.com/@mayank.sharma2796/how-twitter-improved-the-processing-of-400-billion-events-621b3456c9dc
 System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd239f30
+Как Uber обслуживает более 40 миллионов чтений в секунду из онлайн-хранилища с помощью встроенного кэша https://habr.com/ru/articles/811627/
 How does Uber build real-time infrastructure to handle petabytes of data every day? https://blog.det.life/how-does-uber-build-real-time-infrastructure-to-handle-petabytes-of-data-every-day-ddf5fe9b5d2c
 Server bootstrap optimization using RocksDB https://blog.flipkart.tech/server-bootstrap-optimization-using-rocksdb-3378b5af55dc
 
