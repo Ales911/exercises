@@ -90,5 +90,7 @@ The ULTIMATE Guide To Advancing From a Junior to a Mid-Level Web Developer https
 Полное руководство по Prometheus в 2019 году https://habr.com/ru/companies/slurm/articles/455290/
 
 Mastering Caching in Distributed Applications https://medium.com/@yt-cloudwaydigital/mastering-caching-in-distributed-applications-e7449f4db399
-
+    
 Why are my JAVA virtual threads slower than the platform threads? https://developers.ascendcorp.com/why-are-my-java-virtual-threads-slower-than-the-platform-threads-74612a1587f3
+
+Create Generic Micros   ervice Client with OpenAPI Tool and Add as Dependency https://lastjavabuilder.medium.com/create-generic-microservice-client-with-openapi-tool-and-add-as-dependency-fdf67ea25ab6     

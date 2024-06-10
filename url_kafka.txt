@@ -28,3 +28,8 @@ Kafka Interview Question for experienced Java developer in 2024 https://rathod-a
 
 Creating a News Notification System with Kafka and Spring Boot https://blog.devgenius.io/creating-a-news-notification-system-with-kafka-and-spring-boot-01b41837e807
 
+Mastering Kafka: A Developer’s Production-Ready Checklist https://medium.com/@sobinsunny/mastering-kafka-a-developers-production-ready-checklist-fdd9702f35cc
+
+Schema Registry for Kafka https://medium.com/@cobch7/schema-registry-for-kafka-002efc74eb7a
+
+RabbitMQ vs Kafka: Head-to-head confrontation in 8 major dimensions https://medium.com/@hubian/rabbitmq-vs-kafka-head-to-head-confrontation-in-8-major-dimensions-7de8a3193dfd

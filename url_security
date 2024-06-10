@@ -28,3 +28,4 @@ Implementing CSRF Security in a Spring Boot Application https://medium.com/@thec
 
 JWT Authentication with Spring Boot 3 and Java 17 https://medium.com/@berktorun.dev/the-grand-tour-spring-security-and-jwt-authentication-dfd20040fbd6
 JWT Mechanism in Spring Security 6 (without WebSecurityConfigurerAdapter) https://medium.com/javarevisited/jwt-in-spring-security-6-with-database-connection-without-websecurityconfigureradapter-e74344196d11
+Implementing Token based Authentication in a Spring Boot Project https://medium.com/@sallu-salman/implementing-token-based-authentication-in-a-spring-boot-project-dba7811ffcee

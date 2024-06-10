@@ -1,7 +1,9 @@
 package com.example.exercises;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class RoundDance {
@@ -15,20 +17,20 @@ public class RoundDance {
 //Глеб->Костя->Наташа->Серегей->Женя->Глеб
 //3 запуск:
 //Серегей->Глеб->Костя->Наташа->Женя->Серегей
-    List<Integer> getRandomIndexes() {
-        List<Integer> result = null;
+    int[] getRandomIndexes() {
+        int[] result = null;
         do {
-            result = new Random().ints(15, 0, 5).distinct().limit(5).boxed().toList();            
-        } while (result.size() < 5);
+            result = new Random().ints(15, 0, 5).distinct().limit(5).toArray();
+        } while (result.length < 5);
         return result;
     }
 
     void run(List<String> list) {
-        List<Integer> randomIndexes = getRandomIndexes();
+        int[] randomIndexes = getRandomIndexes();
         for (int index : randomIndexes) {
             System.out.print(list.get(index) + ", ");
         }
-        System.out.println(list.get(randomIndexes.get(0)));
+        System.out.println(list.get(randomIndexes[0]));
     }
 
     @Test
@@ -42,7 +44,7 @@ public class RoundDance {
     @Test
     void getRandomIndexesTest() {
         for (int i = 1; i <= 5; i++) {
-            System.out.println(getRandomIndexes());
+            System.out.println(Arrays.toString(getRandomIndexes()));
         }
     }
 
