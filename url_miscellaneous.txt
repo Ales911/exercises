@@ -22,6 +22,7 @@ Thread'ом Java не испортишь: Часть I — потоки https://
 Синхронизаторы пакета concurrent https://java-online.ru/concurrent-synchronizers.xhtml
 Руководство по CompletableFuture с примерами https://annimon.com/article/3462
 Java Advanced Concurrency Interview Questions https://medium.com/@vikas.taank_40391/java-advanced-concurrency-interview-questions-69449655ba9b
+Concurrent programming in Java with virtual threads https://liakh-aliaksandr.medium.com/concurrent-programming-in-java-with-virtual-threads-8f66bccc6460
 
 Unit Testing a Spring Boot service with Mockito and JUnit 5 https://ashok-s-nair.medium.com/java-unit-testing-a-spring-boot-service-with-mockito-2362a32fe217
 Testcontainers in Java and Spring Boot https://senoritadeveloper.medium.com/testcontainers-in-java-and-spring-boot-44177d95d48f

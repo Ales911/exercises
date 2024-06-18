@@ -19,6 +19,7 @@ Architecture Patterns : API Gateway https://lab.scub.net/architecture-patterns-a
 Назад к микросервисам вместе с Istio. Часть 1 https://habr.com/ru/companies/flant/articles/438426/
 
 Micrometer and Zipkin: How to Trace HTTP Requests in Spring Boot 3: https://www.appsdeveloperblog.com/micrometer-and-zipkin-in-spring-boot/
+Distributed Tracing in Microservices https://medium.com/thefreshwrites/distributed-tracing-in-microservices-baf9c693ba50
 
 API gateway in Spring boot https://medium.com/@ankithahjpgowda/api-gateway-in-spring-boot-3ea804003021
 
@@ -78,3 +79,4 @@ Architecture Patterns : Sharding https://lab.scub.net/architecture-patterns-shar
 
 Идемпотентность: больше, чем кажется https://habr.com/ru/companies/domclick/articles/779872/
 10 Tips for Building Resilient Payment Systems https://shopify.engineering/building-resilient-payment-systems
+Fixing duplicate API requests https://medium.com/apache-apisix/fixing-duplicate-api-requests-05a84caeceac
