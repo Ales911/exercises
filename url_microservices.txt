@@ -45,15 +45,6 @@ Design Notification System https://shivam-sinha.medium.com/design-notification-s
 
 Using a Feign Client for Communication Spring Framework: Day 27 — Building Microservices with Spring Boot https://medium.com/javarevisited/spring-framework-day-27-building-microservices-with-spring-boot-fa3f8a3240d7
 
-System Design: Design a chat system https://medium.com/@ishwarya1011.hidkimath/system-design-design-a-chat-system-e0056fb093d1
-How Shopify broke its Black Friday record (System Design case study) https://learningdaily.dev/how-shopify-broke-its-black-friday-record-system-design-case-study-f45f25bbc451
-How Twitter improved the processing of 400 billion events. https://medium.com/@mayank.sharma2796/how-twitter-improved-the-processing-of-400-billion-events-621b3456c9dc
-How Twitter processes 4 billion events in real-time daily https://blog.det.life/how-twitter-processes-4-billion-events-in-real-time-daily-942db8f7d7b5
-System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd239f30
-Как Uber обслуживает более 40 миллионов чтений в секунду из онлайн-хранилища с помощью встроенного кэша https://habr.com/ru/articles/811627/
-How does Uber build real-time infrastructure to handle petabytes of data every day? https://blog.det.life/how-does-uber-build-real-time-infrastructure-to-handle-petabytes-of-data-every-day-ddf5fe9b5d2c
-Server bootstrap optimization using RocksDB https://blog.flipkart.tech/server-bootstrap-optimization-using-rocksdb-3378b5af55dc
-
 Boosting Performance with Redis Caching in Spring Boot Applications https://blog.devops.dev/boosting-performance-with-redis-caching-in-spring-boot-applications-12fc4d63bfcf
 Real-time Distributed score streaming using gRPC and Redis https://engg.glance.com/real-time-distributed-score-streaming-using-grpc-and-redis-a1565b45c825
 
@@ -76,6 +67,7 @@ Read this to Solve Common Problems in System Design https://levelup.gitconnected
 Write Ahead Logs https://medium.com/@vinciabhinav7/write-ahead-logs-but-why-494c3efd722d
 
 Architecture Patterns : Sharding https://lab.scub.net/architecture-patterns-sharding-09f759150d3d
+Microservices Pattern: Distributed Transactions (SAGA) https://medium.com/@joudwawad/microservices-pattern-distributed-transactions-saga-92b5e933cea1
 
 Идемпотентность: больше, чем кажется https://habr.com/ru/companies/domclick/articles/779872/
 10 Tips for Building Resilient Payment Systems https://shopify.engineering/building-resilient-payment-systems

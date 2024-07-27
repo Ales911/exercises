@@ -39,6 +39,8 @@ Transitioning from RestTemplate to WebClient in Spring Boot: A Detailed Guide ht
 Dockerize Your Spring Boot App Like a Pro https://medium.com/@anilfromdit/dockerize-your-spring-boot-app-like-a-pro-d1dd0ef37b79
 Dockerizing Spring Boot: Best Practices for Efficient Containerization https://medium.com/@kiarash.shamaii/dockerizing-spring-boot-best-practices-for-efficient-containerization-f60ed3980dc7
 Как работает сеть в контейнерах: Docker Bridge с нуля https://habr.com/ru/articles/790212/
+Docker Beginner to Expert Tutorial https://levelup.gitconnected.com/docker-beginner-to-expert-tutorial-68555aa3e544
+Optimizing java base docker images size from 674Mb to 58Mb https://medium.com/@RoussiAbel/optimizing-java-base-docker-images-size-from-674mb-to-58mb-c1b7c911f622
 
 Шпаргалка для алгособеса — алгоритмическая сложность, структуры данных, методы сортировки и Дейкстра https://habr.com/ru/articles/794556/
 What is SonarQube and How Do We Integrate It into Our Spring Boot Project? https://medium.com/@aedemirsen/what-is-sonarqube-and-how-do-we-integrate-it-into-our-spring-boot-project-14a529b3669d
@@ -94,4 +96,8 @@ Mastering Caching in Distributed Applications https://medium.com/@yt-cloudwaydig
     
 Why are my JAVA virtual threads slower than the platform threads? https://developers.ascendcorp.com/why-are-my-java-virtual-threads-slower-than-the-platform-threads-74612a1587f3
 
-Create Generic Micros   ervice Client with OpenAPI Tool and Add as Dependency https://lastjavabuilder.medium.com/create-generic-microservice-client-with-openapi-tool-and-add-as-dependency-fdf67ea25ab6     
+Create Generic Micros   ervice Client with OpenAPI Tool and Add as Dependency https://lastjavabuilder.medium.com/create-generic-microservice-client-with-openapi-tool-and-add-as-dependency-fdf67ea25ab6
+
+Top 5 useful Free IntelliJ Plugins to improve your journey as a Java Developer https://medium.com/@gumparthypk/top-5-useful-free-intellij-plugins-to-improve-your-journey-as-a-java-developer-94c4663c28b4
+
+Understanding Spring AOP: Creating Annotation for Logging Requests and Responses https://blog.devgenius.io/understanding-spring-aop-creating-annotation-for-logging-requests-and-responses-d2e4221afe3d

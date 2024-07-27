@@ -1,3 +1,4 @@
+Top 50 System Design Terminologies You Must Know https://medium.com/@TharunKumarReddyPolu/top-50-system-design-terminologies-you-must-know-3c78f5fb99c1
 System Design Concepts: Networking Essentials https://levelup.gitconnected.com/system-design-concepts-networking-essentials-09798e0ff7b4
 
 How does URL shortening for TinyUrl, Bit.ly work? https://medium.com/javarevisited/day-1-high-level-system-design-series-url-shortening-d28888d71084
@@ -7,6 +8,7 @@ System design: Instagram https://medium.com/@sureshpodeti/system-design-instagra
 Tinder — Fully explained System Design and Architecture https://kasunprageethdissanayake.medium.com/tinder-fully-explained-system-design-and-architecture-1225ecdfe64e
 System design: Uber https://medium.com/@sureshpodeti/system-design-uber-378a23bcc7df
 A Brief History of Airbnb’s Architecture https://medium.com/@mananshah3654/a-brief-history-of-airbnbs-architecture-bce6d0405f9c
+The Architecture of Apache Druid https://blog.det.life/the-architecture-of-apache-druid-e92d64ba4360
 
 Data Gateway — A Platform for Growing and Protecting the Data Tier https://netflixtechblog.medium.com/data-gateway-a-platform-for-growing-and-protecting-the-data-tier-f1ed8db8f5c6
 
@@ -15,3 +17,14 @@ How facebook live solved “thundering herd” problem? https://medium.com/@maya
 A Guide to Communication Styles in Microservices Architecture https://medium.com/@joudwawad/a-guide-to-communication-styles-in-microservices-architecture-9a8ae4bc21b2
 
 What should we expect from Software Architects? https://medium.com/@nfigay/what-should-we-expect-from-software-architects-aeb92ef6d7c7
+
+System Design Interview: Design WhatsApp https://levelup.gitconnected.com/system-design-interview-design-whatsapp-779fa385ef08
+System Design: Design a chat system https://medium.com/@ishwarya1011.hidkimath/system-design-design-a-chat-system-e0056fb093d1
+How Shopify broke its Black Friday record (System Design case study) https://learningdaily.dev/how-shopify-broke-its-black-friday-record-system-design-case-study-f45f25bbc451
+How Twitter improved the processing of 400 billion events. https://medium.com/@mayank.sharma2796/how-twitter-improved-the-processing-of-400-billion-events-621b3456c9dc
+How Twitter processes 4 billion events in real-time daily https://blog.det.life/how-twitter-processes-4-billion-events-in-real-time-daily-942db8f7d7b5
+System design: Quora https://medium.com/@sureshpodeti/system-design-quora-4c82bd239f30
+Как Uber обслуживает более 40 миллионов чтений в секунду из онлайн-хранилища с помощью встроенного кэша https://habr.com/ru/articles/811627/
+How does Uber build real-time infrastructure to handle petabytes of data every day? https://blog.det.life/how-does-uber-build-real-time-infrastructure-to-handle-petabytes-of-data-every-day-ddf5fe9b5d2c
+Server bootstrap optimization using RocksDB https://blog.flipkart.tech/server-bootstrap-optimization-using-rocksdb-3378b5af55dc
+How do I design distributed systems in Google: Taxi hailing app like Uber https://luanjunyi.medium.com/how-do-i-design-distributed-systems-in-google-taxi-hailing-app-like-uber-8ed9c02cb5b8

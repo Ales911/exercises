@@ -30,3 +30,5 @@ JWT Authentication with Spring Boot 3 and Java 17 https://medium.com/@berktorun.
 JWT Mechanism in Spring Security 6 (without WebSecurityConfigurerAdapter) https://medium.com/javarevisited/jwt-in-spring-security-6-with-database-connection-without-websecurityconfigureradapter-e74344196d11
 Implementing Token based Authentication in a Spring Boot Project https://medium.com/@sallu-salman/implementing-token-based-authentication-in-a-spring-boot-project-dba7811ffcee
 Authentication history (Basic, Digest, Cookie, Session, Token, JWT, API key) https://medium.com/@iamprovidence/authentication-history-basic-digest-cookie-session-token-jwt-api-key-55d6c21be90b
+
+Preventing XSS Attacks in your Spring Boot API https://danielangel22.medium.com/preventing-xss-attacks-in-your-spring-boot-api-c266a175e011

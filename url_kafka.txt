@@ -33,3 +33,11 @@ Mastering Kafka: A Developer’s Production-Ready Checklist https://medium.com/@
 Schema Registry for Kafka https://medium.com/@cobch7/schema-registry-for-kafka-002efc74eb7a
 
 RabbitMQ vs Kafka: Head-to-head confrontation in 8 major dimensions https://medium.com/@hubian/rabbitmq-vs-kafka-head-to-head-confrontation-in-8-major-dimensions-7de8a3193dfd
+
+Reliably Processing Trillions of Kafka Messages Per Day https://medium.com/walmartglobaltech/reliably-processing-trillions-of-kafka-messages-per-day-23494f553ef9
+
+Building Kafka Producer and Consumer Microservices with Spring Boot on Kubernetes Using GitHub Actions https://medium.com/@mustafaguc/building-kafka-producer-and-consumer-microservices-with-spring-boot-on-kubernetes-using-github-0bd0af37e538
+
+Kafka Integration Made Easy with Spring Boot https://medium.com/simform-engineering/kafka-integration-made-easy-with-spring-boot-b7aaf44d8889
+
+Dead Letter Queue (DLQ) in Kafka https://medium.com/devops-techable/dead-letter-queue-dlq-in-kafka-3db0e6be7b4b
